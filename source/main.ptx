@@ -6,7 +6,7 @@
 
   <book xml:id="Topology-I">
     <title>Topology-I</title>
-    <subtitle>A companion notes</subtitle>
+    <subtitle>Companion notes</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
