@@ -24,7 +24,7 @@
     <p>
       These conditions can be summarize in the following `diagram'.
     </p>
-  <figure xml:id="fig-tikz">
+  <p><figure xml:id="fig-tikz">
   <caption>A figure generated with TikZ in
   <latex /></caption>
   <image width="15%">
@@ -52,6 +52,7 @@
   </image>
 
 </figure>
+</p>
   </statement>
 </definition>
 </section>
