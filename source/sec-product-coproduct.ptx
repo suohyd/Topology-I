@@ -26,7 +26,7 @@
     </p>
    <figure xml:id="universal-property-for-product-of-sets">
     <caption>Universal property of product of sets</caption>
-   
+   <image width ="15%">
     <latex-image>
       \begin{tikzpicture}
 	\bullet \amp\amp \bullet \\
@@ -37,6 +37,7 @@
 	\arrow[from=3-1, to=1-3]
 \end{tikzpicture}
     </latex-image>
+    </image>
     </figure>
   </statement>
 </definition>
