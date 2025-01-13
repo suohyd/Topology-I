@@ -27,5 +27,18 @@
     
   </statement>
 </definition>
+<image xml:id="scaling-tikz" width="48.46%">
+    <latex-image>
+    \begin{tikzpicture}
+    % 1 cm is default unit of length
+    % a rectangle: 8 cm wide, 6 cm tall
+    \draw[draw=black, thick] (4,2) rectangle (-4,-2);
 
+    \node at (-2,  1) {Foo};
+    \node at ( 2,  1) {Bar};
+    \node at (-2, -1) {Baz};
+    \node at ( 2, -1) {Qux};
+    \end{tikzpicture}
+    </latex-image>
+</image>
 </section>
