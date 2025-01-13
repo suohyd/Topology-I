@@ -26,9 +26,9 @@
     </p>
     <me>
       \begin{tikzcd}
-			& Y \\
-			& {\prod X_\alpha} \\
-			{X_\beta} && {X_\gamma}
+			\amp Y \\
+			\amp {\prod X_\alpha} \\
+			{X_\beta} \amp\amp {X_\gamma}
 			\arrow["g"', dashed, from=1-2, to=2-2]
 			\arrow["{f_\beta}"', curve={height=12pt}, from=1-2, to=3-1]
 			\arrow["{f_\gamma}", curve={height=-12pt}, from=1-2, to=3-3]
