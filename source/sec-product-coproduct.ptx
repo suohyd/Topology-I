@@ -27,7 +27,7 @@
   <figure xml:id="fig-tikz">
   <caption>A figure generated with TikZ in
   <latex /></caption>
-  <image width="15%" xml:id="poset">
+  <image width="15%">
 
 <latex-image >
 \begin{tikzpicture}
