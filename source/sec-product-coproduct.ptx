@@ -27,4 +27,12 @@
     
   </statement>
 </definition>
+<latex-image>
+  \begin{tikzpicture}
+    
+        \amp Y \arrow[d, dotted] \arrow[ldd, bend right] \arrow[rdd, bend left] \amp          \\
+        \amp \prod X_\alpha \arrow[ld] \arrow[rd]                               \amp          \\
+X_\beta \amp                                                                    \amp X_\gamma
+  \end{tikzpicture}
+</latex-image>
 </section>
