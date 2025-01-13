@@ -3,6 +3,40 @@
 <section xml:id="sec-product-coproduct" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Product and Coproduct</title>
 
-  <p>  </p>
-
+  <p> 	In this section we define products and coproducts of sets as well as topological spaces. </p>
+<definition xml:id="def-product-of-sets">
+  <statement>
+    <p>
+      Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. The \emph{product of <m>X_\alpha</m>} is a set denoted by <m>\prod X_\alpha</m> and it is `characterized'\footnote{see Exercise \ref{product-uniqueness} for the precise meaning} by the following properties.
+    </p>
+    <ol>
+      <li>
+        <p>
+          For each <m>\alpha\in I</m>, there is a map <m>\pi_\alpha\colon\prod X_\alpha\to X_\alpha</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          If <m>Y</m> is any set together with maps <m>f_\alpha\colon Y\to X_\alpha</m> for each <m>\alpha</m>, then there is a unique map <m>g\colon Y\to\prod X_\alpha</m> satisfying <m>\pi_\alpha\circ g=f_\alpha</m>.
+        </p>
+      </li>
+    </ol>
+    <p>
+      These conditions can be summarize in the following `diagram'.
+    </p>
+    <me>
+      \begin{tikzcd}
+			& Y \\
+			& {\prod X_\alpha} \\
+			{X_\beta} && {X_\gamma}
+			\arrow["g"', dashed, from=1-2, to=2-2]
+			\arrow["{f_\beta}"', curve={height=12pt}, from=1-2, to=3-1]
+			\arrow["{f_\gamma}", curve={height=-12pt}, from=1-2, to=3-3]
+			\arrow["{\pi_\beta}"', from=2-2, to=3-1]
+			\arrow["{\pi_\gamma}", from=2-2, to=3-3]
+		\end{tikzcd}
+    </me>
+    
+  </statement>
+</definition>
 </section>
