@@ -27,7 +27,7 @@
     <figure xml:id="test">
       <caption>test</caption>
       <latex-image>
-        \begin{tikzcd}
+        \begin{tikzpicture}
 			\amp Y \\
 			\amp {$\prod X_\alpha$} \\
 			{$X_\beta$} \amp {$X_\gamma$}
@@ -37,7 +37,7 @@
 			\arrow["{$\pi_\beta$}"', from=2-2, to=3-1]
 			\arrow["{$\pi_\gamma$}", from=2-2, to=3-3]
 		
-        \end{tikzcd}
+        \end{tikzpicture}
       </latex-image>
     </figure>
   </statement>
