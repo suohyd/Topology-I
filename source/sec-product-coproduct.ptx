@@ -28,12 +28,14 @@
   </statement>
 </definition>
 
-  <image width="20%">
+  <image width="50%">
   <latex-image>
-    \begin{tikzcd}
-    A \arrow[rd] \arrow[r, "\phi"] \amp B \\
-    \amp C
-    \end{tikzcd}
+    
+\begin{tikzcd}
+	\bullet \amp\amp\amp \bullet
+	\arrow[curve={height=-12pt}, from=1-1, to=1-4]
+\end{tikzcd}
+    
   </latex-image>
   </image>
 </section>
