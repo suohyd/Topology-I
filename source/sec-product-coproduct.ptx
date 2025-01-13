@@ -25,7 +25,7 @@
       These conditions can be summarize in the following `diagram'.
     </p>
     <latex-image>
-      \begin{tikzcd}
+      \begin{tikz}
 			\amp Y \\
 			\amp {\prod X_\alpha} \\
 			{X_\beta} \amp\amp {X_\gamma}
@@ -34,7 +34,7 @@
 			\arrow["{f_\gamma}", curve={height=-12pt}, from=1-2, to=3-3]
 			\arrow["{\pi_\beta}"', from=2-2, to=3-1]
 			\arrow["{\pi_\gamma}", from=2-2, to=3-3]
-		\end{tikzcd}
+		\end{tikz}
     </latex-image>
     
   </statement>
