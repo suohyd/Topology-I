@@ -26,7 +26,7 @@
     </p>
     <latex-image>
       \begin{tikzcd}
-	\bullet && \bullet \\
+	\bullet \amp\amp \bullet \\
 	\\
 	\bullet
 	\arrow[from=1-1, to=1-3]
