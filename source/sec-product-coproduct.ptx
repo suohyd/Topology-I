@@ -31,9 +31,11 @@
   <image width="50%">
   <latex-image>
     
+
 \begin{tikzcd}
-	\bullet \amp\amp\amp \bullet
-	\arrow[curve={height=-12pt}, from=1-1, to=1-4]
+        \amp Y \arrow[d, dashed,"g"] \arrow[ldd, bend right,"f_\beta",labels=above left] \arrow[rdd, bend left,"f_\gamma"] \amp          \\
+        \amp \prod X_\alpha \arrow[ld,"\pi_\beta"] \arrow[rd,"\pi_\gamma",labels=below right]                               \amp          \\
+X_\beta \amp                                                                    \amp X_\gamma
 \end{tikzcd}
     
   </latex-image>
