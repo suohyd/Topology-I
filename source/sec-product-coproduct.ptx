@@ -27,13 +27,13 @@
     
   </statement>
 </definition>
-<p>
+
   <image>
   <latex-image>
     \begin{tikzcd}
-      \arrow[drr,bend left,"x"]
+    A \arrow[rd] \arrow[r, "\phi"] \amp B \\
+    \amp C
     \end{tikzcd}
   </latex-image>
   </image>
-</p>
 </section>
