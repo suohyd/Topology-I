@@ -28,7 +28,7 @@
   </statement>
 </definition>
 
-  <image>
+  <image width="20%">
   <latex-image>
     \begin{tikzcd}
     A \arrow[rd] \arrow[r, "\phi"] \amp B \\
