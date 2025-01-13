@@ -24,6 +24,23 @@
     <p>
       These conditions can be summarize in the following `diagram'.
     </p>
+    <figure xml:id="test">
+      <caption>test</caption>
+      <latex-image>
+        \begin{tikzpicture}
+          \begin{tikzcd}
+			\amp Y \\
+			\amp {\prod X_\alpha} \\
+			{$X_\beta$} \amp {$X_\gamma$}
+			\arrow["g"', dashed, from=1-2, to=2-2]
+			\arrow["{$f_\beta$}"', curve={height=12pt}, from=1-2, to=3-1]
+			\arrow["{$f_\gamma$}", curve={height=-12pt}, from=1-2, to=3-3]
+			\arrow["{$\pi_\beta$}"', from=2-2, to=3-1]
+			\arrow["{$\pi_\gamma$}", from=2-2, to=3-3]
+		\end{tikzcd}
+        \end{tikzpicture}
+      </latex-image>
+    </figure>
   </statement>
 </definition>
 </section>
