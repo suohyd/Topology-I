@@ -27,7 +27,7 @@
     
   </statement>
 </definition>
-<image xml:id="scaling-tikz" width="48.46%">
+<image xml:id="scaling-tikz" width="15%">
     <latex-image>
     \begin{tikzpicture}
     \footnotesize
@@ -62,8 +62,6 @@
         \node at (90-61*5.625:4.5) {L};
         \node at (90-63*5.625:4.5) {F};
         \end{tikzpicture}
-        </latex-image>
-    \end{tikzpicture}
     </latex-image>
 </image>
 </section>
