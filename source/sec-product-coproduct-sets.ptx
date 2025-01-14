@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-product-coproduct-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Product of sets</title>
+
+  <p> 	In this section we define products and coproducts of sets as well as topological spaces. </p>
+<definition xml:id="def-product-of-sets">
+  <statement>
+    <p>
+      Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. The <em>product of <m>X_\alpha</m></em> is a set denoted by <m>\prod X_\alpha</m> and it is `characterized' (see <xref ref="lem-uniquenss-of-product-of-sets"/> for the precise meaning) by the following properties.
+    </p>
+    <ol>
+      <li>
+        <p>
+          For each <m>\alpha\in I</m>, there is a map <m>\pi_\alpha\colon\prod X_\alpha\to X_\alpha</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          If <m>Y</m> is any set together with maps <m>f_\alpha\colon Y\to X_\alpha</m> for each <m>\alpha</m>, then there is a unique map <m>g\colon Y\to\prod X_\alpha</m> satisfying <m>\pi_\alpha\circ g=f_\alpha</m>.
+        </p>
+      </li>
+    </ol>
+    <p>
+      These conditions can be summarize in the following `diagram'.
+    </p>
+    
+  </statement>
+</definition>
+  <figure xml:id="fig-commutative-diagram-for-product-of-sets">
+  <image width="50%">
+  <latex-image>
+\begin{tikzcd}
+        \amp Y \arrow[d, dashed,"g"] \arrow[ldd, bend right,"f_\beta",labels=above left] \arrow[rdd, bend left,"f_\gamma"] \amp          \\
+        \amp \prod X_\alpha \arrow[ld,"\pi_\beta"] \arrow[rd,"\pi_\gamma",labels=below left]                               \amp          \\
+X_\beta \amp                                                                    \amp X_\gamma
+\end{tikzcd}
+    
+  </latex-image>
+  </image>
+  </figure>
+
+  <lemma xml:id="lem-existence-of-product-of-sets">
+  <title>(Existence of the product of sets)</title>
+    <statement>
+      <p>
+        The product of sets <m>X_\alpha</m> is the Cartesian product of sets, i.e.,  <me>\prod X_\alpha=\lbrace(x_\alpha)_{\alpha\in I}:x_\alpha\in X_\alpha\rbrace.</me> 
+      </p>
+    </statement>
+  </lemma>
+  <proof>
+    <p>
+      We let <m>X=\{(x_\alpha)_{\alpha\in I}:x_\alpha\in X_\alpha\}</m>. We consider, for each <m>\beta\in I</m>, the projection onto <m>\beta</m>-th component of <m>X</m>, i.e., <m>\pi_\alpha\colon X\to X_\beta</m> by <m>(x_\alpha)\mapsto x_\beta</m>.
+    </p>
+    <p>
+      Let <m>Y</m> be a set with maps <m>f_\alpha\colon Y\to X_\alpha</m> for each <m>\alpha\in I</m>. A map <m>g\colon Y\to X</m> satisfying <m>f_\alpha=\pi_\alpha\circ g</m> must map an element <m>y\in Y</m> to <m>(f_\alpha(y))_{\alpha\in I}\in X</m>. Hence, we get the result.
+    </p>
+  </proof>
+
+  <exercise>
+    <statement>Find the product of <m>\{1,2\}</m> and <m>\{1,2\}</m>.</statement>
+  </exercise>
+
+  <lemma xml:id="lem-uniquenss-of-product-of-sets"><title>(Uniqueness of product of sets)</title>
+    <statement>
+      <p>
+        The product of sets is unique up to a canonical bijection of sets.
+      </p>
+    </statement>
+  </lemma>
+  <proof>
+    <p>
+      Proof is left as an exercise.
+    </p>
+  </proof>
+</section>

@@ -8,6 +8,6 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-product-coproduct.ptx" />
+  <xi:include href="sec-product-coproduct-sets.ptx" />
 
 </chapter>
