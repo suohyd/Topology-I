@@ -49,4 +49,14 @@
 
       </p>
     </proof>
+    <p>
+      We now consider the <q>coproduct topology</q>. We begin with the following proposition, which is analogues to <xref ref="prop-product-of-top-spaces"/>
+    </p>
+    <proposition xml:id="prop-coproduct-of-top-spaces">
+      <statement>
+        <p>
+          Let <m>I</m> be a nonempty set, and let <m>(X_\alpha,\tau_\alpha)</m> be a topological space for each <m>\alpha\in I</m>.
+        </p>
+      </statement>
+    </proposition>
 </section>
