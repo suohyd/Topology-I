@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-product-coproduct-top-spaces" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Product of topological spaces</title>
+  <title>Product and coproduct topology</title>
 
-  <p> 	In this section we define products of topological spaces. We begin with the following proposition.</p>
+  <p> 	In this section we define product and coproduct of topological spaces. We begin with the following proposition.</p>
     <proposition xml:id="prop-product-of-top-spaces">
       <statement>
         <p>
@@ -18,12 +18,15 @@
           </li>
           <li>
             <p>
-              The coarsest topology <m>\tau_2</m> on <m>X</m> that make all projection maps <m>\pi_i\colon X\to X_i</m> continuous.
+              The <em>coarsest</em> topology <m>\tau_2</m> on <m>X</m> that make all projection maps <m>\pi_i\colon X\to X_i</m> continuous.
             </p>
           </li>
           <li>
             <p>
-              (Universal property for the product topology). Let <m>\tau_3</m> denote the topology on <m>X</m> given by the following property. For every topological space <m>Y</m> and every map <m>f\colon Y\to X</m>, <m>f</m> is continuous if and only if for each <m>i\in I</m>, <m>\pi_i\circ f\colon Z\to X_i</m> is continuous; see the following diagram.
+              (Universal property for the product topology). Let <m>\tau_3</m> denote the topology on <m>X</m> having the following universal property.
+            </p>
+            <p>
+              For every topological space <m>Y</m> and every map <m>f\colon Y\to X</m>, <m>f</m> is continuous if and only if for each <m>i\in I</m>, <m>\pi_i\circ f\colon Y\to X_i</m> is continuous; see the following diagram.
             </p>
             <figure xml:id="fig-universal-property-of-product-of-top-spaces">
               <caption>Universal property of the product</caption>
@@ -49,14 +52,61 @@
 
       </p>
     </proof>
+    <definition xml:id="def-product-topology"><title>(Product of topological spaces)</title>
+      <statement>
+        <p>
+          The <em>product</em> of topological spaces <m>(X_\alpha,\tau_\alpha)</m> is the set <m>\prod X_\alpha</m> with the topology given by any one of the topologies in <xref ref="prop-product-of-top-spaces"/>.
+        </p>
+      </statement>
+    </definition>
     <p>
-      We now consider the <q>coproduct topology</q>. We begin with the following proposition, which is analogues to <xref ref="prop-product-of-top-spaces"/>
+      We now consider the <q>coproduct topology</q>. We begin with the following proposition, which is analogues to <xref ref="prop-product-of-top-spaces"/>. We leave the proof of the proposition as an exercise.
     </p>
     <proposition xml:id="prop-coproduct-of-top-spaces">
       <statement>
         <p>
-          Let <m>I</m> be a nonempty set, and let <m>(X_\alpha,\tau_\alpha)</m> be a topological space for each <m>\alpha\in I</m>.
+          Let <m>I</m> be a nonempty set, and let <m>(X_\alpha,\tau_\alpha)</m> be a topological space for each <m>\alpha\in I</m>. The following topologies on <m>\coprod X_\alpha</m> (see <xref ref="def-coproduct-of-sets"/>) are equivalent.
         </p>
+        <ol>
+          <li>
+            <p>
+              The topology <m>\tau_1</m> such that <m>U\subseteq\coprod X_\alpha</m> is open if and only if <m>U=\coprod U_\alpha</m> for some <m>U_\alpha\subseteq X_\alpha</m> open.
+            </p>
+          </li>
+          <li>
+            <p>
+              The topology <m>\tau_2</m> such that it is the <em>finest topology</em> on <m>\coprod X_\alpha</m> such that inclusion maps <m>i_\alpha\colon X_\alpha\to\coprod X_\alpha</m> are continuous.
+            </p>
+          </li>
+          <li>
+            <p>(Universal property of the coproduct topology). 
+              The topology <m>\tau_3</m> satisfying the following universal property.
+            </p>
+            <p>
+              For every topological space <m>Z</m> and every function <m>f\colon\coprod X_\alpha\to Z</m>, <m>f</m> is continuous if and only if for each <m>\alpha\in I</m>, <m>f\circ i_\alpha\colon X_\alpha\to Z</m> is continuous, where <m>i_\alpha\colon X_\alpha\to\coprod X_\alpha</m> is natural inclusion.
+            </p>
+            <figure xml:id="fig-universal-property-of-coproduct">
+              <caption>The universal property of the coproduct</caption>
+              <image width="40%">
+              <latex-image>
+                
+                \begin{tikzcd}
+                  \amp \coprod X_\alpha \arrow[d,"f"] \\
+                  X_\alpha \arrow[r,"f_\alpha",labels=below] \arrow[ru,"i_\alpha"] \amp Z                                 
+                \end{tikzcd}
+              </latex-image> 
+                
+              </image>
+            </figure>
+          </li>
+        </ol>
       </statement>
     </proposition>
+    <definition xml:id="def-coproduct-topology"><title>(Coproduct of topological spaces)</title>    
+      <statement>
+        <p>
+          The <em>coproduct</em> of topological spaces <m>(X_\alpha,\tau_\alpha)</m> is the set <m>\coprod X_\alpha</m> with the topology given by any one of the topologies in <xref ref="prop-coproduct-of-top-spaces"/>.
+        </p>
+      </statement>
+    </definition>
 </section>

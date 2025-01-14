@@ -85,7 +85,7 @@ X_\beta \amp                                                                    
   <p>
     We now define the <q>coproduct</q> of sets.
   </p>
-  <definition xml:id="def-coproduct"><title>(Coproduct/disjoint union of sets)</title>
+  <definition xml:id="def-coproduct-of-sets"><title>(Coproduct/disjoint union of sets)</title>
     <statement>
       <p>
         Let <m>I</m> be a nonempty indexing set, and let <m>X_\alpha</m> be sets for each <m>\alpha\in I</m>. The <em>coproduct</em> or the <em>disjoint union</em> of <m>X_\alpha</m>'s is the set <m>\coprod X_\alpha</m> with the following properties.
