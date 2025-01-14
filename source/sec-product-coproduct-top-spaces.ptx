@@ -30,7 +30,7 @@
             </p>
             <figure xml:id="fig-universal-property-of-product-of-top-spaces">
               <caption>Universal property of the product</caption>
-            <image width="30%">              
+            <image width="50%">              
             <latex-image>
               \begin{tikzcd}
               Y \arrow[d,"f",labels=left] \arrow[rd,"\pi_i\circ f"]\amp\\
@@ -87,7 +87,7 @@
             </p>
             <figure xml:id="fig-universal-property-of-coproduct">
               <caption>The universal property of the coproduct</caption>
-              <image width="40%">
+              <image width="50%">
               <latex-image>
                 
                 \begin{tikzcd}
