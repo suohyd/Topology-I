@@ -7,7 +7,7 @@
 <definition xml:id="def-product-of-sets">
   <statement>
     <p>
-      Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. The <em>product of <m>X_\alpha</m></em> is a set denoted by <m>\prod X_\alpha</m> and it is `characterized' (see <xref ref="lem-uniquenss-of-product-of-sets"/> for the precise meaning) by the following properties.
+      Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. The <em>product of <m>X_\alpha</m></em> is a set denoted by <m>\prod X_\alpha</m> and it is `characterized' by the following properties.
     </p>
     <ol>
       <li>
@@ -73,4 +73,11 @@ X_\beta \amp                                                                    
       Proof is left as an exercise.
     </p>
   </proof>
+  <remark>
+    <statement>
+      <p>
+        <xref ref="lem-uniquenss-of-product-of-sets"/> makes precise the meaning of the word <em>characterized</em> in <xref ref="def-product-of-sets"/>.
+      </p>
+    </statement>
+  </remark>
 </section>
