@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-product-coproduct-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Product of sets</title>
+  <title>Product and coproduct of sets</title>
 
   <p> 	In this section we define products of sets. </p>
-<definition xml:id="def-product-of-sets">
+<definition xml:id="def-product-of-sets"><title>(Product of sets)</title>
   <statement>
     <p>
       Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. The <em>product of <m>X_\alpha</m></em> is a set denoted by <m>\prod X_\alpha</m> and it is `characterized' by the following properties.
@@ -28,7 +28,7 @@
   </statement>
 </definition>
   <figure xml:id="fig-commutative-diagram-for-product-of-sets">
-  <image width="50%">
+  <image width="40%">
   <latex-image>
 \begin{tikzcd}
         \amp Y \arrow[d, dashed,"g"] \arrow[ldd, bend right,"f_\beta",labels=above left] \arrow[rdd, bend left,"f_\gamma"] \amp          \\
@@ -57,11 +57,12 @@ X_\beta \amp                                                                    
     </p>
   </proof>
 
-  <exercise>
-    <statement>Find the product of <m>\{1,2\}</m> and <m>\{1,2\}</m>.</statement>
+  <exercise xml:id="ex-product-of-sets">
+    <statement>Find the product of <m>\{1,2\}</m> and <m>\{1,2\}</m>. Also find the product of <m>\R</m> and <m>\Z</m>.
+    </statement>
   </exercise>
 
-  <lemma xml:id="lem-uniquenss-of-product-of-sets"><title>(Uniqueness of product of sets)</title>
+  <lemma xml:id="lem-uniqueness-of-product-of-sets"><title>(Uniqueness of product of sets)</title>
     <statement>
       <p>
         The product of sets is unique up to a canonical bijection of sets.
@@ -76,8 +77,56 @@ X_\beta \amp                                                                    
   <remark>
     <statement>
       <p>
-        <xref ref="lem-uniquenss-of-product-of-sets"/> makes precise the meaning of the word <em>characterized</em> in <xref ref="def-product-of-sets"/>.
+        <xref ref="lem-uniqueness-of-product-of-sets"/> makes precise the meaning of the word <em>characterized</em> in <xref ref="def-product-of-sets"/>.
       </p>
     </statement>
   </remark>
+  <p>
+    We now define the <q>coproduct</q> of sets.
+  </p>
+  <definition xml:id="def-coproduct"><title>(Coproduct/disjoint union of sets)</title>
+    <statement>
+      <p>
+        Let <m>I</m> be a nonempty indexing set, and let <m>X_\alpha</m> be sets for each <m>\alpha\in I</m>. The <em>coproduct</em> or the <em>disjoint union</em> of <m>X_\alpha</m>'s is the set <m>\coprod X_\alpha</m> with the following properties.
+        <ol>
+          <li>
+            <p>
+              For each <m>\alpha\in I</m>, there is a map  <m>i_\alpha\colon X_\alpha\to\coprod X_\alpha</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>Y</m> is any set together with maps <m>f_\alpha\colon X_\alpha\to Y</m> for each <m>\alpha\in I</m>, then there exists a unique map <m>g\colon\coprod X_\alpha\to Y</m> such that <m>f_\alpha=g\circ i_\alpha</m> for each <m>\alpha\in I</m>, see the following diagram.
+            </p>
+          </li>
+        </ol>
+      </p>
+      <figure xml:id="fig-universal-property-of-coproduct-of-sets">
+        <caption>Universal property of coproduct</caption>
+        <image width="40%">
+        <latex-image>
+\begin{tikzcd}
+X_\beta \arrow[rd,"i_\beta"] \arrow[rdd, bend right,"f_\beta",labels=left] \amp  \amp X_\gamma \arrow[ld,"i_\gamma",labels=left] \arrow[ldd, bend left,"f_\gamma",labels=right] \\
+\amp \coprod X_\alpha \arrow[d,dashed,"g"] \amp \\
+\amp Y                          \amp                                           
+\end{tikzcd}
+        </latex-image>          
+        </image>
+      </figure>
+    </statement>
+  </definition>
+  <exercise>
+    <title>(Existence and uniquness of the coproduct of sets)</title>
+    <statement>
+      <p>
+        Arguing similar to <xref ref="lem-existence-of-product-of-sets"/> and <xref ref="lem-uniqueness-of-product-of-sets"/> show that the coproduct of sets exists and it is unique up to bijection.
+      </p>
+    </statement>
+    
+  </exercise>
+  <exercise>
+    <statement>Find the coproduct of <m>\{1,2\}</m> and <m>\{1,2\}</m>. Also find the coproduct of <m>\R</m> and <m>\Z</m>. Compare it with <xref ref="ex-product-of-sets"/>.
+    </statement>
+  </exercise>
+
 </section>
