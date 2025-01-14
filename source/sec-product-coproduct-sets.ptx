@@ -3,7 +3,7 @@
 <section xml:id="sec-product-coproduct-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Product of sets</title>
 
-  <p> 	In this section we define products and coproducts of sets as well as topological spaces. </p>
+  <p> 	In this section we define products of sets. </p>
 <definition xml:id="def-product-of-sets">
   <statement>
     <p>
