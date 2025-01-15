@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-subspace-top" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Subspace topology</title>
+  We begin with the following proposition.
+  <proposition xml:id="prop-subspace-top">
+    <statement>
+        <p>
+            Let <m>(X,\tau)</m> a topological space and let <m>Y</m> be a subset of <m>X</m>. Following topologies defined on <m>Y</m> are all equivalent. 
+        </p>
+        <ol>
+            <li>
+                <p>
+                    The topology <m>\tau_1=\{U\cap X:U\text{ an open subset of }X\}</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The <em>coarsest</em> topology <m>\tau_2</m> on <m>Y</m> for which the canonical inclusion <m>i\colon Y\hookrightarrow X</m> is continuous.
+                </p>
+            </li>
+            <li>
+                <p>
+                    (Universal property of subspace topology). The topology <m>\tau_3</m> on <m>Y</m> satisfying the following property.
+                </p>
+                <p>
+                    For every topological space <m>(Z,\tau_Z)</m> and any function <m>f\colon Z\to Y</m>, <m>f</m> is continuous if and only if <m>i\circ f\colon Z\to X</m> is continuous. See the following diagram.
+                </p>
+                <figure xml:id="fig-universal-property-of-subspace-top">
+                    <caption>The universal property of the subspace topology</caption>
+                    <image width="40%">
+                        <latex-image>
+                            
+\begin{tikzcd}
+Z \arrow[d,"f",labels=left] \arrow[rd,"i\circ f"] \amp   \\
+Y \arrow[r, hook,"i",labels=below]      \amp X
+\end{tikzcd}
+                        </latex-image>
+                        
+                    </image>
+                </figure>
+            </li>
+        </ol>
+    </statement>
+  </proposition>
+  <proof>
+    <p>
+        The equivalence of topologies <m>\tau_1</m> and <m>\tau_2</m> is left as an exercise.
+    </p>
+    <p>
+        We show that <m>\tau_3\subseteq\tau_1</m>. Consider the following diagram, where <m>1_Y\colon Y\to Y</m> is the identity map.
+        <figure>
+                    <caption></caption>
+                    <image width="40%">
+                        <latex-image>
+                            
+\begin{tikzcd}
+(Y,\tau_1) \arrow[d,"1_Y",labels=left] \arrow[rd,"i\circ 1_Y"] \amp   \\
+(Y,\tau_3) \arrow[r,"i",labels=below]      \amp X
+\end{tikzcd}
+                        </latex-image>
+                        
+                    </image>
+                </figure>
+                Note that <m>i=i\circ 1_Y</m>, and with the topology <m>\tau_1</m> the inclusion <m>i\colon (Y,\tau_1)\to X</m> is continuous. By the universal property of <m>\tau_3</m>, the identity <m>1_Y\colon(Y,\tau_1)\to (Y,\tau_3)</m> is also continuous. Hence, <m>\tau_3\subseteq\tau_1</m>.
+    </p>
+    <p>
+        We now consider the following.
+        <figure>
+                    <caption></caption>
+                    <image width="40%">
+                        <latex-image>
+                            
+\begin{tikzcd}
+(Y,\tau_3) \arrow[d,"1_Y",labels=left] \arrow[rd,"i\circ 1_Y"] \amp   \\
+(Y,\tau_3) \arrow[r,"i",labels=below]      \amp X
+\end{tikzcd}
+                        </latex-image>
+                        
+                    </image>
+        </figure>
+        As <m>1_Y\colon (Y,\tau_3)\to (Y,\tau_3)</m> is continuous, using the universal property of <m>\tau_3</m>, we get that <m>i=i\circ 1_Y</m> is also continous. Since the <m>\tau_1</m> is the coarsest topology that makes inclusion continuous, we have that <m>\tau_1\subseteq\tau_3</m>.
+    </p>
+  </proof>
+  <definition xml:id="def-subspace-top">
+    <statement>
+        <p>
+            Let <m>(X,\tau)</m> be a topological space, and let <m>Y</m> be a subset of <m>X</m>. The <em>subspace topology</em> on <m>Y</m> is any of the topologies defined by <xref ref="prop-subspace-top"/>.
+        </p>
+    </statement>
+  </definition>
+</section>
