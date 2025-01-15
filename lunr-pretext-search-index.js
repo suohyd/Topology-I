@@ -172,6 +172,42 @@ var ptx_lunr_docs = [
   "body": "(Coproduct of topological spaces)   The coproduct of topological spaces is the set with the topology given by any one of the topologies in .   "
 },
 {
+  "id": "sec-subspace-top",
+  "level": "1",
+  "url": "sec-subspace-top.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Subspace topology",
+  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    "
+},
+{
+  "id": "prop-subspace-top",
+  "level": "2",
+  "url": "sec-subspace-top.html#prop-subspace-top",
+  "type": "Proposition",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology         "
+},
+{
+  "id": "sec-subspace-top-3",
+  "level": "2",
+  "url": "sec-subspace-top.html#sec-subspace-top-3",
+  "type": "Proof",
+  "number": "1.3.1",
+  "title": "",
+  "body": " The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continous. Since the is the coarsest topology that makes inclusion continuous, we have that .  "
+},
+{
+  "id": "def-subspace-top",
+  "level": "2",
+  "url": "sec-subspace-top.html#def-subspace-top",
+  "type": "Definition",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
