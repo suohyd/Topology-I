@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Subspace topology",
-  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    "
+  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    Suppose that . We can consider the product topology on as well as subspace topology induced by the product topology on . Are these topologies same on ?  "
 },
 {
   "id": "prop-subspace-top",
@@ -196,7 +196,7 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "1.3.1",
   "title": "",
-  "body": " The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continous. Since the is the coarsest topology that makes inclusion continuous, we have that .  "
+  "body": " The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .  "
 },
 {
   "id": "def-subspace-top",
@@ -206,6 +206,15 @@ var ptx_lunr_docs = [
   "number": "1.3.5",
   "title": "",
   "body": "  Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .   "
+},
+{
+  "id": "sec-subspace-top-5",
+  "level": "2",
+  "url": "sec-subspace-top.html#sec-subspace-top-5",
+  "type": "Checkpoint",
+  "number": "1.3.6",
+  "title": "",
+  "body": "Suppose that . We can consider the product topology on as well as subspace topology induced by the product topology on . Are these topologies same on ? "
 },
 {
   "id": "backmatter-2",
