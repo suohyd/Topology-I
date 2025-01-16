@@ -79,7 +79,7 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
                         
                     </image>
         </figure>
-        As <m>1_Y\colon (Y,\tau_3)\to (Y,\tau_3)</m> is continuous, using the universal property of <m>\tau_3</m>, we get that <m>i=i\circ 1_Y</m> is also continous. Since the <m>\tau_1</m> is the coarsest topology that makes inclusion continuous, we have that <m>\tau_1\subseteq\tau_3</m>.
+        As <m>1_Y\colon (Y,\tau_3)\to (Y,\tau_3)</m> is continuous, using the universal property of <m>\tau_3</m>, we get that <m>i=i\circ 1_Y</m> is also continuous. Since the <m>\tau_1</m> is the coarsest topology that makes inclusion continuous, we have that <m>\tau_1\subseteq\tau_3</m>.
     </p>
   </proof>
   <definition xml:id="def-subspace-top">
@@ -89,4 +89,10 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
         </p>
     </statement>
   </definition>
+
+  <exercise>
+    <statement>
+        Suppose that <m>Y_\alpha\subseteq X_\alpha</m>. We can consider the product topology on <m>\prod Y_\alpha</m> as well as subspace topology induced by the product topology on <m>\prod X_\alpha</m>. Are these topologies same on <m>\prod Y_\alpha</m>?
+    </statement>
+  </exercise>
 </section>

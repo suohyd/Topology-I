@@ -29,7 +29,7 @@
 </definition>
   <figure xml:id="fig-commutative-diagram-for-product-of-sets">
   <caption>The universal property of product of sets</caption>
-  <image width="50%">
+  <image>
   <latex-image>
 \begin{tikzcd}
         \amp Y \arrow[d, dashed,"g"] \arrow[ldd, bend right,"f_\beta",labels=above left] \arrow[rdd, bend left,"f_\gamma"] \amp          \\
