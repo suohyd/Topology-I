@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Product and coproduct of sets",
-  "body": " Product and coproduct of sets  We begin with the definition of product of sets.  (Product of sets)   Let be a nonempty set and consider sets for every . The product of is a set denoted by and it is `characterized' by the following properties.    For each , there is a map     If is any set together with maps for each , then there is a unique map satisfying .    These conditions can be summarize in the following `diagram'.     The universal property of product of sets       (Existence of the product of sets)   The product of sets is the Cartesian product of sets, i.e.,      We let . We consider, for each , the projection onto -th component of , i.e., by .  Let be a set with maps for each . A map satisfying must map an element to . Hence, we get the result.   Find the product of and . Also find the product of and .  (Uniqueness of product of sets)   The product of sets is unique up to a canonical bijection of sets.     Proof is left as an exercise.      makes precise the meaning of the word characterized in .    We now define the coproduct of sets.  (Coproduct\/disjoint union of sets)   Let be a nonempty indexing set, and let be sets for each . The coproduct or the disjoint union of 's is the set with the following properties.   For each , there is a map .    If is any set together with maps for each , then there exists a unique map such that for each , see the following diagram.      The universal property of coproduct        (Existence and uniquness of the coproduct of sets)  Arguing similar to and show that the coproduct of sets exists and it is unique up to bijection.   Find the coproduct of and . Also find the coproduct of and . Compare it with .  "
+  "body": " Product and coproduct of sets  We begin with the definition of product of sets.  (Product of sets)   Let be a nonempty set and consider sets for every . A product of is a set denoted by and it is `characterized' by the following properties.    For each , there is a map     If is any set together with maps for each , then there is a unique map satisfying .    These conditions can be summarize in the following `diagram'.     The universal property of product of sets       (Existence of a product of sets)   A product of sets is the Cartesian product of sets, i.e.,      We let . We consider, for each , the projection onto -th component of , i.e., by .  Let be a set with maps for each . A map satisfying must map an element to . Hence, we get the result.   Find a product of and . Also find a product of and .  (Uniqueness of product of sets)   A product of sets is unique up to a canonical bijection of sets.     Proof is left as an exercise.      makes precise the meaning of the word characterized in .    We now define a coproduct of sets.  (Coproduct\/disjoint union of sets)   Let be a nonempty indexing set, and let be sets for each . A coproduct or a disjoint union of 's is the set with the following properties.   For each , there is a map .    If is any set together with maps for each , then there exists a unique map such that for each , see the following diagram.      The universal property of coproduct        (Existence and uniquness of a coproduct of sets)  Arguing similar to and show that a coproduct of sets exists and it is unique up to bijection.   Find a coproduct of and . Also find a coproduct of and . Compare it with .  "
 },
 {
   "id": "def-product-of-sets",
@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.1.1",
   "title": "(Product of sets).",
-  "body": "(Product of sets)   Let be a nonempty set and consider sets for every . The product of is a set denoted by and it is `characterized' by the following properties.    For each , there is a map     If is any set together with maps for each , then there is a unique map satisfying .    These conditions can be summarize in the following `diagram'.   "
+  "body": "(Product of sets)   Let be a nonempty set and consider sets for every . A product of is a set denoted by and it is `characterized' by the following properties.    For each , there is a map     If is any set together with maps for each , then there is a unique map satisfying .    These conditions can be summarize in the following `diagram'.   "
 },
 {
   "id": "fig-commutative-diagram-for-product-of-sets",
@@ -42,8 +42,8 @@ var ptx_lunr_docs = [
   "url": "sec-product-coproduct-sets.html#lem-existence-of-product-of-sets",
   "type": "Lemma",
   "number": "1.1.3",
-  "title": "(Existence of the product of sets).",
-  "body": " (Existence of the product of sets)   The product of sets is the Cartesian product of sets, i.e.,    "
+  "title": "(Existence of a product of sets).",
+  "body": " (Existence of a product of sets)   A product of sets is the Cartesian product of sets, i.e.,    "
 },
 {
   "id": "sec-product-coproduct-sets-6",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.4",
   "title": "",
-  "body": "Find the product of and . Also find the product of and . "
+  "body": "Find a product of and . Also find a product of and . "
 },
 {
   "id": "lem-uniqueness-of-product-of-sets",
@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "1.1.5",
   "title": "(Uniqueness of product of sets).",
-  "body": "(Uniqueness of product of sets)   The product of sets is unique up to a canonical bijection of sets.   "
+  "body": "(Uniqueness of product of sets)   A product of sets is unique up to a canonical bijection of sets.   "
 },
 {
   "id": "sec-product-coproduct-sets-9",
@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.1.7",
   "title": "(Coproduct\/disjoint union of sets).",
-  "body": "(Coproduct\/disjoint union of sets)   Let be a nonempty indexing set, and let be sets for each . The coproduct or the disjoint union of 's is the set with the following properties.   For each , there is a map .    If is any set together with maps for each , then there exists a unique map such that for each , see the following diagram.      The universal property of coproduct       "
+  "body": "(Coproduct\/disjoint union of sets)   Let be a nonempty indexing set, and let be sets for each . A coproduct or a disjoint union of 's is the set with the following properties.   For each , there is a map .    If is any set together with maps for each , then there exists a unique map such that for each , see the following diagram.      The universal property of coproduct       "
 },
 {
   "id": "sec-product-coproduct-sets-13",
@@ -105,8 +105,8 @@ var ptx_lunr_docs = [
   "url": "sec-product-coproduct-sets.html#sec-product-coproduct-sets-13",
   "type": "Checkpoint",
   "number": "1.1.9",
-  "title": "(Existence and uniquness of the coproduct of sets).",
-  "body": "(Existence and uniquness of the coproduct of sets)  Arguing similar to and show that the coproduct of sets exists and it is unique up to bijection.  "
+  "title": "(Existence and uniquness of a coproduct of sets).",
+  "body": "(Existence and uniquness of a coproduct of sets)  Arguing similar to and show that a coproduct of sets exists and it is unique up to bijection.  "
 },
 {
   "id": "sec-product-coproduct-sets-14",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.10",
   "title": "",
-  "body": "Find the coproduct of and . Also find the coproduct of and . Compare it with . "
+  "body": "Find a coproduct of and . Also find a coproduct of and . Compare it with . "
 },
 {
   "id": "sec-product-coproduct-top-spaces",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Product and coproduct topology",
-  "body": " Product and coproduct topology  In this section we define product and coproduct of topological spaces. We begin with the following proposition.    Let be a nonempty indexing set, and be topological spaces for each . We consider the product of sets, as in . Following topologies on are all equivalent.    The topology on generated by the following basis.     The coarsest topology on that make all projection maps continuous.    (Universal property for the product topology). Let denote the topology on having the following universal property.  For every topological space and every map , is continuous if and only if for each , is continuous; see the following diagram.   Universal property of the product            . Suppose that is an open set. Then, is the product of sets whose -th component is when and the -th component is . Therefore, any topology on which makes continuous, we must have open in that topology, in particular, . Furthermore, given a basis element with for any , we can write it as . Hence, and are equivalent.   . Suppose that has topology . Consider the identity map . Then, given an open subset , is open in because is continuous. Hence, . Conversely, assume that has given topology , and let be a continuous function. Given an open subset , is open in . Hence, is continuous. Now assume that is continuous for each . Let be basis element of , i.e., for all but finitely many . Note that we have , and hence, .   (Product of topological spaces)   The product of topological spaces is the set with the topology given by any one of the topologies in .    We now consider the coproduct topology . We begin with the following proposition, which is analogues to . We leave the proof of the proposition as an exercise.    Let be a nonempty set, and let be a topological space for each . The following topologies on (see ) are equivalent.    The topology such that is open if and only if for some open.    The topology such that it is the finest topology on such that inclusion maps are continuous.    (Universal property of the coproduct topology). The topology satisfying the following universal property.  For every topological space and every function , is continuous if and only if for each , is continuous, where is natural inclusion.   The universal property of the coproduct          (Coproduct of topological spaces)   The coproduct of topological spaces is the set with the topology given by any one of the topologies in .    "
+  "body": " Product and coproduct topology  In this section we define product and coproduct of topological spaces. We begin with the following proposition.    Let be a nonempty indexing set, and be topological spaces for each . We consider a product of sets, as in . Following topologies on are all equivalent.    The topology on generated by the following basis.     The coarsest topology on that make all projection maps continuous.    (Universal property for a product topology). Let denote the topology on having the following universal property.  For every topological space and every map , is continuous if and only if for each , is continuous; see the following diagram.   Universal property of a product            . Suppose that is an open set. Then, is a product of sets whose -th component is when and the -th component is . Therefore, any topology on which makes continuous, we must have open in that topology, in particular, . Furthermore, given a basis element with for any , we can write it as . Hence, and are equivalent.   . Suppose that has topology . Consider the identity map . Then, given an open subset , is open in because is continuous. Hence, . Conversely, assume that has given topology , and let be a continuous function. Given an open subset , is open in . Hence, is continuous. Now assume that is continuous for each . Let be basis element of , i.e., for all but finitely many . Note that we have , and hence, .   (Product of topological spaces)   A product of topological spaces is set with the topology given by any one of the topologies in .    We now consider the coproduct topology . We begin with the following proposition, which is analogues to . We leave the proof of the proposition as an exercise.    Let be a nonempty set, and let be a topological space for each . The following topologies on (see ) are equivalent.    The topology such that is open if and only if for some open.    The topology such that it is the finest topology on such that inclusion maps are continuous.    (Universal property of a coproduct topology). The topology satisfying the following universal property.  For every topological space and every function , is continuous if and only if for each , is continuous, where is natural inclusion.   The universal property of a coproduct          (Coproduct of topological spaces)   A coproduct of topological spaces is set with the topology given by any one of the topologies in .    "
 },
 {
   "id": "prop-product-of-top-spaces",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Proposition",
   "number": "1.2.1",
   "title": "",
-  "body": "  Let be a nonempty indexing set, and be topological spaces for each . We consider the product of sets, as in . Following topologies on are all equivalent.    The topology on generated by the following basis.     The coarsest topology on that make all projection maps continuous.    (Universal property for the product topology). Let denote the topology on having the following universal property.  For every topological space and every map , is continuous if and only if for each , is continuous; see the following diagram.   Universal property of the product         "
+  "body": "  Let be a nonempty indexing set, and be topological spaces for each . We consider a product of sets, as in . Following topologies on are all equivalent.    The topology on generated by the following basis.     The coarsest topology on that make all projection maps continuous.    (Universal property for a product topology). Let denote the topology on having the following universal property.  For every topological space and every map , is continuous if and only if for each , is continuous; see the following diagram.   Universal property of a product         "
 },
 {
   "id": "sec-product-coproduct-top-spaces-4",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "1.2.1",
   "title": "",
-  "body": "  . Suppose that is an open set. Then, is the product of sets whose -th component is when and the -th component is . Therefore, any topology on which makes continuous, we must have open in that topology, in particular, . Furthermore, given a basis element with for any , we can write it as . Hence, and are equivalent.   . Suppose that has topology . Consider the identity map . Then, given an open subset , is open in because is continuous. Hence, . Conversely, assume that has given topology , and let be a continuous function. Given an open subset , is open in . Hence, is continuous. Now assume that is continuous for each . Let be basis element of , i.e., for all but finitely many . Note that we have , and hence, .  "
+  "body": "  . Suppose that is an open set. Then, is a product of sets whose -th component is when and the -th component is . Therefore, any topology on which makes continuous, we must have open in that topology, in particular, . Furthermore, given a basis element with for any , we can write it as . Hence, and are equivalent.   . Suppose that has topology . Consider the identity map . Then, given an open subset , is open in because is continuous. Hence, . Conversely, assume that has given topology , and let be a continuous function. Given an open subset , is open in . Hence, is continuous. Now assume that is continuous for each . Let be basis element of , i.e., for all but finitely many . Note that we have , and hence, .  "
 },
 {
   "id": "def-product-topology",
@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.2.3",
   "title": "(Product of topological spaces).",
-  "body": "(Product of topological spaces)   The product of topological spaces is the set with the topology given by any one of the topologies in .   "
+  "body": "(Product of topological spaces)   A product of topological spaces is set with the topology given by any one of the topologies in .   "
 },
 {
   "id": "prop-coproduct-of-top-spaces",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Proposition",
   "number": "1.2.4",
   "title": "",
-  "body": "  Let be a nonempty set, and let be a topological space for each . The following topologies on (see ) are equivalent.    The topology such that is open if and only if for some open.    The topology such that it is the finest topology on such that inclusion maps are continuous.    (Universal property of the coproduct topology). The topology satisfying the following universal property.  For every topological space and every function , is continuous if and only if for each , is continuous, where is natural inclusion.   The universal property of the coproduct         "
+  "body": "  Let be a nonempty set, and let be a topological space for each . The following topologies on (see ) are equivalent.    The topology such that is open if and only if for some open.    The topology such that it is the finest topology on such that inclusion maps are continuous.    (Universal property of a coproduct topology). The topology satisfying the following universal property.  For every topological space and every function , is continuous if and only if for each , is continuous, where is natural inclusion.   The universal property of a coproduct         "
 },
 {
   "id": "def-coproduct-topology",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.2.6",
   "title": "(Coproduct of topological spaces).",
-  "body": "(Coproduct of topological spaces)   The coproduct of topological spaces is the set with the topology given by any one of the topologies in .   "
+  "body": "(Coproduct of topological spaces)   A coproduct of topological spaces is set with the topology given by any one of the topologies in .   "
 },
 {
   "id": "sec-subspace-top",
@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Subspace topology",
-  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    Suppose that . We can consider the product topology on as well as subspace topology induced by the product topology on . Are these topologies same on ?  "
+  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    Suppose that . We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?  "
 },
 {
   "id": "prop-subspace-top",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.3.6",
   "title": "",
-  "body": "Suppose that . We can consider the product topology on as well as subspace topology induced by the product topology on . Are these topologies same on ? "
+  "body": "Suppose that . We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ? "
 },
 {
   "id": "backmatter-2",
