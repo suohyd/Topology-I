@@ -99,7 +99,7 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
       <example xml:id="GL-as-topological-group"><title>(Group of invertible matrices as a topological space)</title>
       <statement>
         <p>
-          We consider <m>GL_n(\R)=\{A\in M_n(\R):\det A\neq 0\}</m> as a subset of <m>\R^{n^2}</m>, and we give subspace topology on <m>GL_n(\R)</m>. As the entries of product of matrices <m>A,B\in GL_n(\R)</m> depend continuously on entries of <m>A</m> and <m>B</m>, the multiplication map <m>\colon GL_n(\R)\times GL_n(\R)\to\R</m> is continuous. Furthermore, the entries of the inverse of <m>A</m> depends continuously on the entries of <m>A</m>. Hence, the inverse map, <m>GL_n(\R)\to GL_n(\R)</m> given by <m>A\mapsto A^{-1}</m> is continuous.
+          We consider <m>GL_n(\R)=\{A\in M_n(\R):\det A\neq 0\}</m> as a subset of <m>\R^{n^2}</m>, and we give subspace topology on <m>GL_n(\R)</m>. As the entries of product of matrices <m>A,B\in GL_n(\R)</m> depend continuously on entries of <m>A</m> and <m>B</m>, the multiplication map <m>\colon GL_n(\R)\times GL_n(\R)\to\R</m> is continuous. Furthermore, the entries of the inverse of <m>A</m> depends continuously on the entries of <m>A</m>. Hence, the inverse map <m>GL_n(\R)\to GL_n(\R)</m> given by <m>A\mapsto A^{-1}</m> is continuous.
         </p>
       </statement>
     </example>
