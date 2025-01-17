@@ -59,7 +59,8 @@
         </p>
       </statement>
     </definition>
-    <p>
+
+      <p>
       We now consider the <q>coproduct topology</q>. We begin with the following proposition, which is analogues to <xref ref="prop-product-of-top-spaces"/>. We leave the proof of the proposition as an exercise.
     </p>
     <proposition xml:id="prop-coproduct-of-top-spaces">
