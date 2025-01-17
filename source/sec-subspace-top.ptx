@@ -92,7 +92,7 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
 
   <exercise>
     <statement>
-        Suppose that <m>Y_\alpha\subseteq X_\alpha</m>. We can consider the product topology on <m>\prod Y_\alpha</m> as well as subspace topology induced by the product topology on <m>\prod X_\alpha</m>. Are these topologies same on <m>\prod Y_\alpha</m>?
+        Suppose that <m>Y_\alpha\subseteq X_\alpha</m>. We can consider a product topology on <m>\prod Y_\alpha</m> as well as subspace topology induced by a product topology on <m>\prod X_\alpha</m>. Are these topologies same on <m>\prod Y_\alpha</m>?
     </statement>
   </exercise>
 </section>

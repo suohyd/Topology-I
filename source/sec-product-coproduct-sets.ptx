@@ -7,7 +7,7 @@
 <definition xml:id="def-product-of-sets"><title>(Product of sets)</title>
   <statement>
     <p>
-      Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. The <em>product of <m>X_\alpha</m></em> is a set denoted by <m>\prod X_\alpha</m> and it is `characterized' by the following properties.
+      Let <m>I</m> be a nonempty set and consider sets <m>X_\alpha</m> for every <m>\alpha\in I</m>. A <em>product of <m>X_\alpha</m></em> is a set denoted by <m>\prod X_\alpha</m> and it is `characterized' by the following properties.
     </p>
     <ol>
       <li>
@@ -42,10 +42,10 @@ X_\beta \amp                                                                    
   </figure>
 
   <lemma xml:id="lem-existence-of-product-of-sets">
-  <title>(Existence of the product of sets)</title>
+  <title>(Existence of a product of sets)</title>
     <statement>
       <p>
-        The product of sets <m>X_\alpha</m> is the Cartesian product of sets, i.e.,  <me>\prod X_\alpha=\lbrace(x_\alpha)_{\alpha\in I}:x_\alpha\in X_\alpha\rbrace.</me> 
+        A product of sets <m>X_\alpha</m> is the Cartesian product of sets, i.e.,  <me>\prod X_\alpha=\lbrace(x_\alpha)_{\alpha\in I}:x_\alpha\in X_\alpha\rbrace.</me> 
       </p>
     </statement>
   </lemma>
@@ -59,14 +59,14 @@ X_\beta \amp                                                                    
   </proof>
 
   <exercise xml:id="ex-product-of-sets">
-    <statement>Find the product of <m>\{1,2\}</m> and <m>\{1,2\}</m>. Also find the product of <m>\R</m> and <m>\Z</m>.
+    <statement>Find a product of <m>\{1,2\}</m> and <m>\{1,2\}</m>. Also find a product of <m>\R</m> and <m>\Z</m>.
     </statement>
   </exercise>
 
   <lemma xml:id="lem-uniqueness-of-product-of-sets"><title>(Uniqueness of product of sets)</title>
     <statement>
       <p>
-        The product of sets is unique up to a canonical bijection of sets.
+        a product of sets is unique up to a canonical bijection of sets.
       </p>
     </statement>
   </lemma>
@@ -117,16 +117,16 @@ X_\beta \arrow[rd,"i_\beta"] \arrow[rdd, bend right,"f_\beta",labels=left] \amp 
     </statement>
   </definition>
   <exercise>
-    <title>(Existence and uniquness of the coproduct of sets)</title>
+    <title>(Existence and uniquness of a coproduct of sets)</title>
     <statement>
       <p>
-        Arguing similar to <xref ref="lem-existence-of-product-of-sets"/> and <xref ref="lem-uniqueness-of-product-of-sets"/> show that the coproduct of sets exists and it is unique up to bijection.
+        Arguing similar to <xref ref="lem-existence-of-product-of-sets"/> and <xref ref="lem-uniqueness-of-product-of-sets"/> show that a coproduct of sets exists and it is unique up to bijection.
       </p>
     </statement>
     
   </exercise>
   <exercise>
-    <statement>Find the coproduct of <m>\{1,2\}</m> and <m>\{1,2\}</m>. Also find the coproduct of <m>\R</m> and <m>\Z</m>. Compare it with <xref ref="ex-product-of-sets"/>.
+    <statement>Find a coproduct of <m>\{1,2\}</m> and <m>\{1,2\}</m>. Also find a coproduct of <m>\R</m> and <m>\Z</m>. Compare it with <xref ref="ex-product-of-sets"/>.
     </statement>
   </exercise>
 
