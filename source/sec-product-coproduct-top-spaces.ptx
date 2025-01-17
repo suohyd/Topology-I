@@ -7,7 +7,7 @@
     <proposition xml:id="prop-product-of-top-spaces">
       <statement>
         <p>
-          Let <m>I</m> be a nonempty indexing set, and <m>(X_i,\tau_i)</m> be topological spaces for each <m>i\in I</m>. We consider the product of sets, <m>X=\prod X_i</m> as in <xref ref="lem-existence-of-product-of-sets"/>. 	Following topologies on <m>X</m> are all equivalent.
+          Let <m>I</m> be a nonempty indexing set, and <m>(X_i,\tau_i)</m> be topological spaces for each <m>i\in I</m>. We consider a product of sets, <m>X=\prod X_i</m> as in <xref ref="lem-existence-of-product-of-sets"/>. 	Following topologies on <m>X</m> are all equivalent.
         </p>
         <ol>
           <li>
@@ -23,13 +23,13 @@
           </li>
           <li>
             <p>
-              (Universal property for the product topology). Let <m>\tau_3</m> denote the topology on <m>X</m> having the following universal property.
+              (Universal property for a product topology). Let <m>\tau_3</m> denote the topology on <m>X</m> having the following universal property.
             </p>
             <p>
               For every topological space <m>Y</m> and every map <m>f\colon Y\to X</m>, <m>f</m> is continuous if and only if for each <m>i\in I</m>, <m>\pi_i\circ f\colon Y\to X_i</m> is continuous; see the following diagram.
             </p>
             <figure xml:id="fig-universal-property-of-product-of-top-spaces">
-              <caption>Universal property of the product</caption>
+              <caption>Universal property of a product</caption>
             <image width="50%">              
             <latex-image>
               \begin{tikzcd}
@@ -45,7 +45,7 @@
     </proposition>
     <proof>
       <p>
-        <m>(1)\Leftrightarrow (2)</m>. Suppose that <m>U_i\subseteq X_i</m> is an open set. Then, <m>\pi_i^{-1}(U_i)</m> is the product of sets whose <m>j</m>-th component is <m>X_j</m> when <m>j\neq i</m> and the <m>i</m>-th component is <m>U_i</m>. Therefore, any topology on <m>X</m> which makes <m>\pi_i</m> continuous, we must have <m>\pi_i^{-1}((U_i))</m> open in that topology, in particular, <m>\pi_i^{-1}(U_i)\in\tau_2</m>. Furthermore, given a basis element <m>\prod U_i\in\tau_1</m> with <m>U_j=X_j</m> for any <m>j\not\in\{i_1,\ldots,i_n\}</m>, we can write it as <m>\bigcap_{k=1}^{n}\pi_{i_k}^{-1}(U_{i_k})\in\tau_2</m>. Hence, <m>\tau_1</m> and <m>\tau_2</m> are equivalent.
+        <m>(1)\Leftrightarrow (2)</m>. Suppose that <m>U_i\subseteq X_i</m> is an open set. Then, <m>\pi_i^{-1}(U_i)</m> is a product of sets whose <m>j</m>-th component is <m>X_j</m> when <m>j\neq i</m> and the <m>i</m>-th component is <m>U_i</m>. Therefore, any topology on <m>X</m> which makes <m>\pi_i</m> continuous, we must have <m>\pi_i^{-1}((U_i))</m> open in that topology, in particular, <m>\pi_i^{-1}(U_i)\in\tau_2</m>. Furthermore, given a basis element <m>\prod U_i\in\tau_1</m> with <m>U_j=X_j</m> for any <m>j\not\in\{i_1,\ldots,i_n\}</m>, we can write it as <m>\bigcap_{k=1}^{n}\pi_{i_k}^{-1}(U_{i_k})\in\tau_2</m>. Hence, <m>\tau_1</m> and <m>\tau_2</m> are equivalent.
       </p>
       <p>
         <m>(2)\Leftrightarrow (3)</m>. Suppose that <m>X</m> has topology <m>\tau_3</m>. Consider the identity map <m> {1}_X\colon X\to X</m>. Then, given an open subset <m>U_i\subseteq X_i</m>, <m>\pi_i^{-1}(U_i)=(\pi_i\circ {1}_X)^{-1}(U_i)</m> is open in <m>X</m> because <m> {1}_X</m> is continuous. Hence, <m>\tau_2\subseteq\tau_3</m>. Conversely, assume that <m>X</m> has given topology <m>\tau_2</m>, and let <m>f\colon Y\to X</m> be a continuous function. Given an open subset <m>U_i\subseteq X_i</m>, <m>(\pi_i\circ f)^{-1}(U_i)=f^{-1}\left(\pi_i^{-1}(U_i)\right)</m> is open in <m>Y</m>. Hence, <m>\pi_i\circ f</m> is continuous. Now assume that <m>\pi_i\circ f</m> is continuous for each <m>i\in I</m>. Let <m>\prod U_i</m> be basis element of <m>\tau_1</m>, i.e., <m>U_i=X_i</m> for all but finitely many <m>i</m>. Note that we have <m>f^{-1}\left(\prod U_i\right)=\bigcup_{i\in I}\left(\pi_i\circ f\right)^{-1}(U_i)</m>, and hence, <m>f^{-1}(\prod U_i)\in\tau_1=\tau_2</m>.
@@ -55,7 +55,7 @@
     <definition xml:id="def-product-topology"><title>(Product of topological spaces)</title>
       <statement>
         <p>
-          The <em>product</em> of topological spaces <m>(X_\alpha,\tau_\alpha)</m> is the set <m>\prod X_\alpha</m> with the topology given by any one of the topologies in <xref ref="prop-product-of-top-spaces"/>.
+          A <em>product</em> of topological spaces <m>(X_\alpha,\tau_\alpha)</m> is set <m>\prod X_\alpha</m> with the topology given by any one of the topologies in <xref ref="prop-product-of-top-spaces"/>.
         </p>
       </statement>
     </definition>
@@ -79,14 +79,14 @@
             </p>
           </li>
           <li>
-            <p>(Universal property of the coproduct topology). 
+            <p>(Universal property of a coproduct topology). 
               The topology <m>\tau_3</m> satisfying the following universal property.
             </p>
             <p>
               For every topological space <m>Z</m> and every function <m>f\colon\coprod X_\alpha\to Z</m>, <m>f</m> is continuous if and only if for each <m>\alpha\in I</m>, <m>f\circ i_\alpha\colon X_\alpha\to Z</m> is continuous, where <m>i_\alpha\colon X_\alpha\to\coprod X_\alpha</m> is natural inclusion.
             </p>
             <figure xml:id="fig-universal-property-of-coproduct">
-              <caption>The universal property of the coproduct</caption>
+              <caption>The universal property of a coproduct</caption>
               <image width="50%">
               <latex-image>
                 
@@ -105,7 +105,7 @@
     <definition xml:id="def-coproduct-topology"><title>(Coproduct of topological spaces)</title>    
       <statement>
         <p>
-          The <em>coproduct</em> of topological spaces <m>(X_\alpha,\tau_\alpha)</m> is the set <m>\coprod X_\alpha</m> with the topology given by any one of the topologies in <xref ref="prop-coproduct-of-top-spaces"/>.
+          A <em>coproduct</em> of topological spaces <m>(X_\alpha,\tau_\alpha)</m> is set <m>\coprod X_\alpha</m> with the topology given by any one of the topologies in <xref ref="prop-coproduct-of-top-spaces"/>.
         </p>
       </statement>
     </definition>
