@@ -13,6 +13,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-General-constructions.ptx" />
+    <xi:include href="./ch-topological-spaces.ptx" />
 
 
     <!-- Include backmatter -->

@@ -9,6 +9,4 @@
 
   <!-- include sections -->
   <xi:include href="sec-product-coproduct-sets.ptx" />
-  <xi:include href="sec-product-coproduct-top-spaces.ptx" />
-  <xi:include href="sec-subspace-top.ptx" />
 </chapter>
