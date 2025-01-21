@@ -60,6 +60,24 @@
       </statement>
     </definition>
 
+    <remark>
+      <statement>
+        <p>
+          Let <m>X,Y</m> be topological spaces. The projection maps <m>\pi_X\colon X\times Y\to X</m> and <m>\pi_Y\colon X\times Y\to Y</m> are open maps. Furthermore, for any <m>(x,y)\in X\times Y</m>, maps <m>\pi_X\colon X\times\{y\}\to X</m> and <m>\pi_Y\colon \{x\}\times Y\to Y</m> are homeomorphisms.
+        </p>
+        <p>
+          The basic ingredient to see the above statement is the following observation.
+        </p>
+        <p>
+          For <m>U\subseteq X</m> open and <m>V\subseteq Y</m> open
+          <me>
+          \left(U\times V\right)\cap\left(X\times\{y\}\right)=U\times\{y\}\text{ if }y\in V\text{ and }\emptyset\text{ otherwise.}
+          </me>
+          
+        </p>
+      </statement>
+    </remark>
+
       <p>
       We now consider the <q>coproduct topology</q>. We begin with the following proposition, which is analogues to <xref ref="prop-product-of-top-spaces"/>. We leave the proof of the proposition as an exercise.
     </p>

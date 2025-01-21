@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-topological-groups" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Topological groups</title>
+  <p>
+    In this section we define and give some examples of topological groups.
+  </p>
+  <definition xml:id="def-topological-group">
+    <statement>
+        <p>
+            Let <m>G</m> be a group and a topological space. We say that <m>G</m> is a <em>topological group</em> if the group operation <m>G\times G\to G</m>, given by <m>(g,h)\mapsto gh</m> and the inverse map <m>G\to G</m> given by <m>g\mapsto g^{-1}</m> are continous.
+        </p>
+    </statement>
+  </definition>
+      <example xml:id="GL-as-topological-group"><title>(Group of invertible matrices as a topological space)</title>
+      <statement>
+        <p>
+          We consider <m>\GL_n(\R)=\{A\in M_n(\R):\det A\neq 0\}</m> as a subset of <m>\R^{n^2}</m>, and we give subspace topology on <m>\GL_n(\R)</m>. As the entries of product of matrices <m>A,B\in \GL_n(\R)</m> depend continuously on entries of <m>A</m> and <m>B</m>, the matrix multiplication map <m>\GL_n(\R)\times \GL_n(\R)\to \GL_n(\R)</m> is continuous. Furthermore, the entries of the inverse of <m>A</m> depends continuously on the entries of <m>A</m>. Hence, the inverse map <m>\GL_n(\R)\to \GL_n(\R)</m> given by <m>A\mapsto A^{-1}</m> is continuous.
+        </p>
+      </statement>
+    </example>
+    <example xml:id="example-SL-SO">
+    <title>(Special linear and special orthogonal groups)</title>
+    <statement>
+        <p>
+            Similar to <xref ref="GL-as-topological-group"/>, we get that the following subgroups of <m>\GL_n(\R)</m> are topological groups. <me>\SL_n(\R)=\left\{A\in M_n(\R):\det A=1\right\}\quad\text{and}\quad\SO_n(\R)=\left\{A\in \SL_n(\R):AA^t=I_n\right\}</me>
+        </p>
+    </statement>
+    </example>
+
+</section>

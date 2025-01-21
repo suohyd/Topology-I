@@ -95,13 +95,4 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
         Suppose that <m>Y_\alpha\subseteq X_\alpha</m>. We can consider a product topology on <m>\prod Y_\alpha</m> as well as subspace topology induced by a product topology on <m>\prod X_\alpha</m>. Are these topologies same on <m>\prod Y_\alpha</m>?
     </statement>
   </exercise>
-
-      <example xml:id="GL-as-topological-group"><title>(Group of invertible matrices as a topological space)</title>
-      <statement>
-        <p>
-          We consider <m>GL_n(\R)=\{A\in M_n(\R):\det A\neq 0\}</m> as a subset of <m>\R^{n^2}</m>, and we give subspace topology on <m>GL_n(\R)</m>. As the entries of product of matrices <m>A,B\in GL_n(\R)</m> depend continuously on entries of <m>A</m> and <m>B</m>, the matrix multiplication map <m>GL_n(\R)\times GL_n(\R)\to GL_n(\R)</m> is continuous. Furthermore, the entries of the inverse of <m>A</m> depends continuously on the entries of <m>A</m>. Hence, the inverse map <m>GL_n(\R)\to GL_n(\R)</m> given by <m>A\mapsto A^{-1}</m> is continuous.
-        </p>
-      </statement>
-    </example>
-
 </section>
