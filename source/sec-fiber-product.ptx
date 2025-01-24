@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-fiber-product" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Pullback/Fiber product</title>
+  <p>
+    In this section we describe the <em>pullback</em> (also called <em>fiber product</em>) construction for continuous functions on topological spaces.
+  </p>
+  <definition xml:id="def-pullback-top-spaces">
+    <statement>
+        <p>
+            Let <m>X,Y</m> and <m>Z</m> be topological spaces. Suppose that <m>f\colon X\to Z</m> and <m>g\colon Y\to Z</m> be continuous maps. The <em>pullback</em> of continuous functions <m>f,g</m> is a topological space <m>X\times_ZY</m> together with continuous functions <m>\pi_X\colon X\times_ZY\to X</m> and <m>\pi_Y\colon X\times_ZY\to Y</m> satisfying the following <em>universal property</em>.
+        </p>
+        <figure>
+          <shortdescription>Universal property of pullback</shortdescription>
+          <image width="40%">
+          <latex-image>
+            
+\begin{tikzcd}
+W \arrow[rdd, bend right,"p_Y"] \arrow[rrd, bend left,"p_X"] \arrow[rd, dotted,"h"] \amp                                \amp             \\
+                                                                    \amp X\times_ZY \arrow[d,"\pi_X"] \arrow[r,"\pi_Y"] \amp Y \arrow[d,"g"] \\
+                                                                    \amp X \arrow[r,"f"]                    \amp Z          
+\end{tikzcd}
+          </latex-image>
+          </image>
+        </figure>
+    </statement>
+  </definition>
+</section>

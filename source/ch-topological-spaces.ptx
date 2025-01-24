@@ -11,4 +11,5 @@
   <xi:include href="sec-product-coproduct-top-spaces.ptx" />
   <xi:include href="sec-subspace-top.ptx" />
   <xi:include href="sec-topological-groups.ptx" />
+  <xi:include href="sec-fiber-product.ptx" />
 </chapter>
