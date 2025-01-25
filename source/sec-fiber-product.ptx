@@ -8,15 +8,18 @@
   <definition xml:id="def-pullback-top-spaces">
     <statement>
         <p>
-            Let <m>X,Y</m> and <m>Z</m> be topological spaces. Suppose that <m>f\colon X\to Z</m> and <m>g\colon Y\to Z</m> be continuous maps. The <em>pullback</em> of continuous functions <m>f,g</m> is a topological space <m>X\times_ZY</m> together with continuous functions <m>\pi_X\colon X\times_ZY\to X</m> and <m>\pi_Y\colon X\times_ZY\to Y</m> satisfying the following <em>universal property</em>.
+            Let <m>X,Y</m> and <m>Z</m> be topological spaces. Suppose that <m>f\colon X\to Z</m> and <m>g\colon Y\to Z</m> be continuous maps. The <em>pullback</em> of <m>X,Y</m> along continuous functions <m>f,g</m> is a topological space <m>X\times_ZY</m> together with continuous functions <m>\pi_X\colon X\times_ZY\to X</m> and <m>\pi_Y\colon X\times_ZY\to Y</m> satisfying the following <em>universal property</em>.
+        </p>
+        <p>
+          If <m>W</m> is any topological space with continuous maps <m>p_X\colon W\to X</m> and <m>p_Y\colon W\to Y</m>, then there exists a unique continuous map <m>h\colon W\to X\times_ZY</m> such that <m>p_X=\pi_X\circ X</m> and <m>p_Y=\pi_Y\circ h</m>.
         </p>
         <figure>
-          <shortdescription>Universal property of pullback</shortdescription>
+          <caption>Universal property of pullback</caption>
           <image width="40%">
           <latex-image>
             
 \begin{tikzcd}
-W \arrow[rdd, bend right,"p_Y"] \arrow[rrd, bend left,"p_X"] \arrow[rd, dotted,"h"] \amp                                \amp             \\
+W \arrow[rdd, bend right,"p_X",labels=below] \arrow[rrd, bend left,"p_Y"] \arrow[rd, dotted,"h"] \amp                                \amp             \\
                                                                     \amp X\times_ZY \arrow[d,"\pi_X"] \arrow[r,"\pi_Y"] \amp Y \arrow[d,"g"] \\
                                                                     \amp X \arrow[r,"f"]                    \amp Z          
 \end{tikzcd}
@@ -25,4 +28,38 @@ W \arrow[rdd, bend right,"p_Y"] \arrow[rrd, bend left,"p_X"] \arrow[rd, dotted,"
         </figure>
     </statement>
   </definition>
+  <remark xml:id="existence-of-pullback">
+    <statement>
+      <p>
+        We keep notations of <xref ref="def-pullback-top-spaces"/>. Consider the following subset of <m>X\times Y</m> with the subspace topology.
+        <me>
+          X\times_ZY=\left\{(x,y)\in X\times Y:f(x)=g(y)\right\}
+        </me>
+        It can be verified that the above subspace together with natural projection <m>\pi_X\colon X\times_ZY\to X</m> (resp., <m>\pi_Y\colon X\times_ZY\to Y</m>) given by <m>\pi_X((x,y))=x</m> (resp., given by <m>\pi_Y((x,y))=y</m>) is pullback.
+      </p>
+      <p>
+        This shows existence of pullback.
+      </p>
+    </statement>
+  </remark>
+  <remark xml:id="uniqueness-of-pullback">
+    <statement>
+      <p>
+        The pullback given in <xref ref="existence-of-pullback"/> is unique up to homeomorphism. 
+      </p>
+    </statement>
+  </remark>
+  <example>
+    <statement>
+      <p>
+        Let <m>X,Y</m> be a topological spaces and let <m>Z=\{\star\}</m> be a one point set.
+      </p>
+      <p>
+        Let <m>f\colon X\to\{\star\}</m> and <m>g\colon Y\to\{\star\}</m> be unique continuous maps. In this case we get that <m>X\times_ZY</m> is homeomorphic to <m>X\times Y</m>.
+      </p>
+      <p>
+        Suppose that <m>h\colon X\to Y</m> is a continuous map. Let <m>g'\colon\{\star\}\to Y</m> be a map that maps <m>g'(\star)=y_0</m> for some <m>y_0\in Y</m>. We get that <m>X\times_YZ</m> is homeomorphic to <m>h^{-1}(y_0)</m>.
+      </p>
+    </statement>
+  </example>
 </section>
