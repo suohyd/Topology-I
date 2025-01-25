@@ -262,6 +262,51 @@ var ptx_lunr_docs = [
   "body": " (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.    "
 },
 {
+  "id": "sec-fiber-product",
+  "level": "1",
+  "url": "sec-fiber-product.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Pullback\/Fiber product",
+  "body": " Pullback\/Fiber product  In this section we describe the pullback (also called fiber product ) construction for continuous functions on topological spaces.    Let and be topological spaces. Suppose that and be continuous maps. The pullback of along continuous functions is a topological space together with continuous functions and satisfying the following universal property .  If is any topological space with continuous maps and , then there exists a unique continuous map such that and .   Universal property of pullback          We keep notations of . Consider the following subset of with the subspace topology. It can be verified that the above subspace together with natural projection (resp., ) given by (resp., given by ) is pullback.  This shows existence of pullback.      The pullback given in is unique up to homeomorphism.      Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .    "
+},
+{
+  "id": "def-pullback-top-spaces",
+  "level": "2",
+  "url": "sec-fiber-product.html#def-pullback-top-spaces",
+  "type": "Definition",
+  "number": "2.4.1",
+  "title": "",
+  "body": "  Let and be topological spaces. Suppose that and be continuous maps. The pullback of along continuous functions is a topological space together with continuous functions and satisfying the following universal property .  If is any topological space with continuous maps and , then there exists a unique continuous map such that and .   Universal property of pullback       "
+},
+{
+  "id": "existence-of-pullback",
+  "level": "2",
+  "url": "sec-fiber-product.html#existence-of-pullback",
+  "type": "Remark",
+  "number": "2.4.3",
+  "title": "",
+  "body": "  We keep notations of . Consider the following subset of with the subspace topology. It can be verified that the above subspace together with natural projection (resp., ) given by (resp., given by ) is pullback.  This shows existence of pullback.   "
+},
+{
+  "id": "uniqueness-of-pullback",
+  "level": "2",
+  "url": "sec-fiber-product.html#uniqueness-of-pullback",
+  "type": "Remark",
+  "number": "2.4.4",
+  "title": "",
+  "body": "  The pullback given in is unique up to homeomorphism.   "
+},
+{
+  "id": "sec-fiber-product-6",
+  "level": "2",
+  "url": "sec-fiber-product.html#sec-fiber-product-6",
+  "type": "Example",
+  "number": "2.4.5",
+  "title": "",
+  "body": "  Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
