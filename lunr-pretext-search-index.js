@@ -232,7 +232,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Topological groups",
-  "body": " Topological groups  In this section we define and give some examples of topological groups.    Let be a group and a topological space. We say that is a topological group if the group operation , given by and the inverse map given by are continous.    (Group of invertible matrices as a topological space)   We consider as a subset of , and we give subspace topology on . As the entries of product of matrices depend continuously on entries of and , the matrix multiplication map is continuous. Furthermore, the entries of the inverse of depends continuously on the entries of . Hence, the inverse map given by is continuous.     (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.     "
+  "body": " Topological groups  In this section we define and give some examples of topological groups.    Let be a group and a topological space. We say that is a topological group if the group operation , given by and the inverse map given by are continous.    (Group of invertible matrices as a topological space)   We consider as a subset of , and we give subspace topology on . As the entries of product of matrices depend continuously on entries of and , the matrix multiplication map is continuous. Furthermore, the entries of the inverse of depends continuously on the entries of . Hence, the inverse map given by is continuous.     (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.     (Topological group equivalent condition)  Show that the two conditions in is equivalent to the following.    (Translations)  Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.   "
 },
 {
   "id": "def-topological-group",
@@ -262,13 +262,31 @@ var ptx_lunr_docs = [
   "body": " (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.    "
 },
 {
+  "id": "sec-topological-groups-6",
+  "level": "2",
+  "url": "sec-topological-groups.html#sec-topological-groups-6",
+  "type": "Checkpoint",
+  "number": "2.3.4",
+  "title": "(Topological group equivalent condition).",
+  "body": "(Topological group equivalent condition)  Show that the two conditions in is equivalent to the following.   "
+},
+{
+  "id": "sec-topological-groups-7",
+  "level": "2",
+  "url": "sec-topological-groups.html#sec-topological-groups-7",
+  "type": "Checkpoint",
+  "number": "2.3.5",
+  "title": "(Translations).",
+  "body": "(Translations)  Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.  "
+},
+{
   "id": "sec-fiber-product",
   "level": "1",
   "url": "sec-fiber-product.html",
   "type": "Section",
   "number": "2.4",
   "title": "Pullback\/Fiber product",
-  "body": " Pullback\/Fiber product  In this section we describe the pullback (also called fiber product ) construction for continuous functions on topological spaces.    Let and be topological spaces. Suppose that and be continuous maps. The pullback of along continuous functions is a topological space together with continuous functions and satisfying the following universal property .  If is any topological space with continuous maps and , then there exists a unique continuous map such that and .   Universal property of pullback          We keep notations of . Consider the following subset of with the subspace topology. It can be verified that the above subspace together with natural projection (resp., ) given by (resp., given by ) is pullback.  This shows existence of pullback.      The pullback given in is unique up to homeomorphism.      Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .    "
+  "body": " Pullback\/Fiber product  In this section we describe the pullback (also called fiber product ) construction for continuous functions on topological spaces.    Let and be topological spaces. Suppose that and be continuous maps. The pullback of along continuous functions is a topological space together with continuous functions and satisfying the following universal property .  If is any topological space with continuous maps and , then there exists a unique continuous map such that and .   Universal property of pullback          We keep notations of . Consider the following subset of with the subspace topology. It can be verified that the above subspace together with natural projection (resp., ) given by (resp., given by ) is pullback.  This shows existence of pullback.      The pullback given in is unique up to homeomorphism.      Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .      Suppose that is a topological space and that be subspaces of . Consider the canonical inclusions, viz., and . The pullback of along these inclusions is the following.       The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is .    "
 },
 {
   "id": "def-pullback-top-spaces",
@@ -305,6 +323,24 @@ var ptx_lunr_docs = [
   "number": "2.4.5",
   "title": "",
   "body": "  Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .   "
+},
+{
+  "id": "sec-fiber-product-7",
+  "level": "2",
+  "url": "sec-fiber-product.html#sec-fiber-product-7",
+  "type": "Example",
+  "number": "2.4.6",
+  "title": "",
+  "body": "  Suppose that is a topological space and that be subspaces of . Consider the canonical inclusions, viz., and . The pullback of along these inclusions is the following.    "
+},
+{
+  "id": "sec-fiber-product-8",
+  "level": "2",
+  "url": "sec-fiber-product.html#sec-fiber-product-8",
+  "type": "Example",
+  "number": "2.4.7",
+  "title": "",
+  "body": "  The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is .   "
 },
 {
   "id": "backmatter-2",
