@@ -28,4 +28,28 @@
     </statement>
     </example>
 
+    <exercise>
+    <title>(Topological group equivalent condition)</title>
+    
+    
+      <statement>
+        <p>
+          Show that the two conditions in <xref ref="def-topological-group"/> is equivalent to the following.
+          <me>
+            \text{The mapping }(g,h)\mapsto gh^{-1} \text{ from }G\times G\to G \text{ is continuous}.
+          </me>
+          
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+    <title>(Translations)</title>
+      <statement>
+        <p>
+          Let <m>G</m> be a topological group. Fix <m>g_0\in G</m>. Show that mapping <m>\ell_{g_0}\colon G\to G</m> given by <m>g\mapsto g_0g</m> and <m>r_{g_0}\colon G\to G</m> given by <m>g\mapsto gg_0</m> are homeomorphisms.
+        </p>
+      </statement>
+    </exercise>
+
 </section>
