@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Subspace topology",
-  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    Suppose that . We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?  "
+  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    Suppose that and that each is given the subspace topology. We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?  We denote by the product topology on and by the subspace topology on . The universal property of the subspace topology (see the figure below) implies that is continuous. In other words, .        For any , the projection map is continuous. Indeed, for an open subset , is an open subset with respect to . Thus, by the universal property of product topology is continuous, i.e.,            "
 },
 {
   "id": "prop-subspace-top",
@@ -223,7 +223,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.2.6",
   "title": "",
-  "body": "Suppose that . We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ? "
+  "body": "Suppose that and that each is given the subspace topology. We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?  We denote by the product topology on and by the subspace topology on . The universal property of the subspace topology (see the figure below) implies that is continuous. In other words, .        For any , the projection map is continuous. Indeed, for an open subset , is an open subset with respect to . Thus, by the universal property of product topology is continuous, i.e.,           "
 },
 {
   "id": "sec-topological-groups",
@@ -232,7 +232,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Topological groups",
-  "body": " Topological groups  In this section we define and give some examples of topological groups.    Let be a group and a topological space. We say that is a topological group if the group operation , given by and the inverse map given by are continous.    (Group of invertible matrices as a topological space)   We consider as a subset of , and we give subspace topology on . As the entries of product of matrices depend continuously on entries of and , the matrix multiplication map is continuous. Furthermore, the entries of the inverse of depends continuously on the entries of . Hence, the inverse map given by is continuous.     (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.     (Topological group equivalent condition)  Show that the two conditions in is equivalent to the following.    (Translations)  Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.   "
+  "body": " Topological groups  In this section we define and give some examples of topological groups.    Let be a group and a topological space. We say that is a topological group if the group operation , given by and the inverse map given by are continous.    (Group of invertible matrices as a topological space)   We consider as a subset of , and we give subspace topology on . As the entries of product of matrices depend continuously on entries of and , the matrix multiplication map is continuous. Furthermore, the entries of the inverse of depends continuously on the entries of . Hence, the inverse map given by is continuous.     (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.     (Equivalent condition)  Show that the two conditions in is equivalent to the following.    (Translations)  Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.   "
 },
 {
   "id": "def-topological-group",
@@ -267,8 +267,8 @@ var ptx_lunr_docs = [
   "url": "sec-topological-groups.html#sec-topological-groups-6",
   "type": "Checkpoint",
   "number": "2.3.4",
-  "title": "(Topological group equivalent condition).",
-  "body": "(Topological group equivalent condition)  Show that the two conditions in is equivalent to the following.   "
+  "title": "(Equivalent condition).",
+  "body": "(Equivalent condition)  Show that the two conditions in is equivalent to the following.   "
 },
 {
   "id": "sec-topological-groups-7",
