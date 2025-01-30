@@ -123,7 +123,7 @@
                 
                 \begin{tikzcd}
                   \amp \coprod X_\alpha \arrow[d,"f"] \\
-                  X_\alpha \arrow[r,"f_\alpha",labels=below] \arrow[ru,"i_\alpha"] \amp Z                                 
+                  X_\alpha \arrow[r,"f\circ i_\alpha",labels=below] \arrow[ru,"i_\alpha"] \amp Z                                 
                 \end{tikzcd}
               </latex-image> 
                 

@@ -119,4 +119,33 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
   </hint>
   </exercise>
   
+  <example>
+  <title>(Euclidean and product topology on <m>\R^n</m>)</title>
+  
+  
+    <statement>
+        <p>
+            We consider <m>\R</m> with the usual topology. We show that the product topology on <m>\R\times\R\times\cdots\times\R</m> is same as the Euclidean topology on <m>\R^n</m>. Note that the projection maps <m>\pi_i\colon\R^n\to\R</m> are continuous. Therefore, using the universal property of the product topology we get that an open subset in the product topology is open in the Euclidean topology.
+        </p>
+        <p>
+            <figure>
+                    
+                    <image width="40%">
+                        <latex-image>
+                            
+\begin{tikzcd}
+\R^n \arrow[d,"1",labels=left] \arrow[rd,"\pi_i\circ 1"] \amp   \\
+\R\times\R\times\cdots\times\R \arrow[r,"\pi_i",labels=below]      \amp \R
+\end{tikzcd}
+                        </latex-image>
+                        
+                    </image>
+                </figure>
+        </p>
+        <p>
+            A direct way to see this is following. Suppose that <m>v=\left(x_1,x_2,\ldots,x_n\right)\in\R^n</m>. Consider an open subset <m>U=(x_1-\epsilon/\sqrt{n},x_1+\epsilon/\sqrt{n})\times\cdots\times(x_n-\epsilon/\sqrt{n},x_n+\epsilon/\sqrt{n})</m> in the product topology. Note that <m>B(v,\epsilon)\subset U</m>. This shows that a basic open subset in the product topology is an union of open balls in the euclidean topology.
+        </p>
+    </statement>
+  </example>
+
 </section>
