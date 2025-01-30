@@ -130,4 +130,14 @@ X_\beta \arrow[rd,"i_\beta"] \arrow[rdd, bend right,"f_\beta",labels=left] \amp 
     </statement>
   </exercise>
 
+  <example xml:id="finite-prod-coprod-are-same">
+  <title>(Product and coproduct of finite number of sets)</title>
+  
+  
+    <statement>
+      <p>
+        If the indexing set <m>I</m> is finite, say <m>|I|=n</m> then, <m>\prod_{i=1}^nX_i=\coprod_{i=1}^nX_i</m>.
+      </p>
+    </statement>
+  </example>
 </section>

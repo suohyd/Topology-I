@@ -140,4 +140,13 @@
         </p>
       </statement>
     </definition>
+
+    <example xml:id="finite-prod-coprod-top-spaces-are-same">
+      <title>(Product and coproduct of finitely many topological spaces)</title>
+      <statement>
+        <p>
+          By <xref ref="finite-prod-coprod-are-same"/>, we may assume that <m>\prod_{i=1}^{n}X_i=\coprod_{i=1}^nX_i</m>. The product topology on <m>\prod_{i=1}^nX_i</m> and the coproduct topology <m>\coprod_{i=1}^nX_i</m> are the same.
+        </p>
+      </statement>
+    </example>
 </section>
