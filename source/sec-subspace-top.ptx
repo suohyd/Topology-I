@@ -96,23 +96,7 @@ Y \arrow[r, hook,"i",labels=below]      \amp X
     </statement>
     <hint>
     <statement>
-        We denote by <m>\tau_p</m> the product topology on <m>\prod Y_\alpha</m> and by <m>\tau_s</m> the subspace topology on <m>\prod Y_\alpha</m>. The universal property of the subspace topology (see the figure below) implies that <m>1\colon\left(\prod Y_\alpha,\tau_p\right)\to \left(\prod Y_\alpha,\tau_s\right)</m> is continuous. In other words, <m>\tau_s\subseteq\tau_p</m>.
-        <p>
-                            <figure>
-                    
-                    <image width="40%">
-                        <latex-image>
-                            
-\begin{tikzcd}
-(\prod Y_\alpha,\tau_p) \arrow[d,"1",labels=left] \arrow[rd,"i\circ 1"] \amp   \\
-(\prod Y_\alpha,\tau_s) \arrow[r, hook,"i",labels=below]      \amp \prod X_\alpha
-\end{tikzcd}
-                        </latex-image>
-                        
-                    </image>
-                </figure>
-
-        </p>
+        We denote by <m>\tau_p</m> the product topology on <m>\prod Y_\alpha</m> and by <m>\tau_s</m> the subspace topology on <m>\prod Y_\alpha</m>.
         <p>
             For any <m>\alpha</m>, the projection map <m>\pi_\alpha\colon(\prod Y_\alpha,\tau_s)\to Y_\alpha</m> is continuous. Indeed, for an open subset <m>V_\alpha\subseteq Y_\alpha</m>, <m>\pi_\alpha^{-1}\left(V_\alpha\right)=\left\{(y_\beta):y_\beta\in V_\alpha\text{ when }\beta=\alpha\right\}</m> is an open subset with respect to <m>\tau_s</m>. Thus, by the universal property of product topology <m>1\colon\left(\prod Y_\alpha,\tau_s\right)\to\left(\prod Y_\alpha,\tau_p\right)</m> is continuous, i.e., <m>\tau_p\subseteq\tau_s</m>
         </p>
