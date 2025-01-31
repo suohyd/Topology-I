@@ -49,18 +49,18 @@
       </p>
       <p>
         <m>(2)\Leftrightarrow (3)</m>. Suppose that <m>X</m> has topology <m>\tau_3</m>. Consider the identity map <m> {1}_X\colon X\to X</m> with the topology <m>\tau_3</m> on both the domain and the codomain. Then, given an open subset <m>U_i\subseteq X_i</m>, <m>\pi_i^{-1}(U_i)=(\pi_i\circ {1}_X)^{-1}(U_i)</m> is open in <m>X</m> because <m> {1}_X</m> is continuous. Hence, <m>\tau_2\subseteq\tau_3</m>. <!--Conversely, assume that <m>X</m> has given topology <m>\tau_2</m>, and let <m>f\colon Y\to X</m> be a continuous function. Given an open subset <m>U_i\subseteq X_i</m>, <m>(\pi_i\circ f)^{-1}(U_i)=f^{-1}\left(\pi_i^{-1}(U_i)\right)</m> is open in <m>Y</m>. Hence, <m>\pi_i\circ f</m> is continuous. Now assume that <m>\pi_i\circ f</m> is continuous for each <m>i\in I</m>. Let <m>\prod U_i</m> be basis element of <m>\tau_1</m>, i.e., <m>U_i=X_i</m> for all but finitely many <m>i</m>. Note that we have <m>f^{-1}\left(\prod U_i\right)=\bigcup_{i\in I}\left(\pi_i\circ f\right)^{-1}(U_i)</m>, and hence, <m>f^{-1}(\prod U_i)\in\tau_1=\tau_2</m>.-->
-        <p>Conversely, consider <m>1_X\colon (X,\tau_2)\to(X,\tau_3)</m> the identity map. We have the following diagram for each <m>i\in I</m>.
+        <p>Conversely, consider <m>\unit_X\colon (X,\tau_2)\to(X,\tau_3)</m> the identity map. We have the following diagram for each <m>i\in I</m>.
         <figure>
             <image width="40%">              
             <latex-image>
               \begin{tikzcd}
-              (X,\tau_2) \arrow[d,"1_X",labels=left] \arrow[rd,"\pi_i\circ 1_X"]\amp\\
+              (X,\tau_2) \arrow[d,"\unit_X",labels=left] \arrow[rd,"\pi_i\circ \unit_X"]\amp\\
               (X,\tau_3) \arrow[r,"\pi_i",labels=below]\amp X_i
               \end{tikzcd}
             </latex-image>
             </image>
             </figure>
-            By the definining property of <m>\tau_2</m>, for each <m>i\in I</m>, the map <m>\pi_i\circ 1_X</m> is continuous. Therefore, by the defining property of <m>\tau_3</m>, the identity map <m>1_X\colon (X,\tau_2)\to (X,\tau_3)</m> is also continuous, i.e., an open subset of <m>X</m> with respect to <m>\tau_3</m> is open with respect to <m>\tau_2</m> as well. In particular, <m>\tau_3\subseteq\tau_2</m>.
+            By the definining property of <m>\tau_2</m>, for each <m>i\in I</m>, the map <m>\pi_i\circ \unit_X</m> is continuous. Therefore, by the defining property of <m>\tau_3</m>, the identity map <m>\unit_X\colon (X,\tau_2)\to (X,\tau_3)</m> is also continuous, i.e., an open subset of <m>X</m> with respect to <m>\tau_3</m> is open with respect to <m>\tau_2</m> as well. In particular, <m>\tau_3\subseteq\tau_2</m>.
       </p>
       </p>
     </proof>
