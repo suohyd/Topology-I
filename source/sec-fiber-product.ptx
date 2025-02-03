@@ -8,10 +8,10 @@
   <definition xml:id="def-pullback-top-spaces">
     <statement>
         <p>
-            Let <m>X,Y</m> and <m>Z</m> be topological spaces. Suppose that <m>f\colon X\to Z</m> and <m>g\colon Y\to Z</m> be continuous maps. The <em>pullback</em> of <m>X,Y</m> along continuous functions <m>f,g</m> is a topological space <m>X\times_ZY</m> together with continuous functions <m>\pi_X\colon X\times_ZY\to X</m> and <m>\pi_Y\colon X\times_ZY\to Y</m> satisfying the following <em>universal property</em>.
+            Let <m>X,Y</m> and <m>Z</m> be topological spaces. Suppose that <m>f\colon X\to Z</m> and <m>g\colon Y\to Z</m> be continuous maps. The <em>pullback</em> of <m>X,Y</m> along continuous functions <m>f,g</m> is a topological space <m>X\times_ZY</m> together with continuous functions <m>\pi_X\colon X\times_ZY\to X</m> and <m>\pi_Y\colon X\times_ZY\to Y</m> such that <m>f\circ\pi_X=g\circ\pi_Y</m> and that satisfy the following <em>universal property</em>.
         </p>
         <p>
-          If <m>W</m> is any topological space with continuous maps <m>p_X\colon W\to X</m> and <m>p_Y\colon W\to Y</m>, then there exists a unique continuous map <m>h\colon W\to X\times_ZY</m> such that <m>p_X=\pi_X\circ X</m> and <m>p_Y=\pi_Y\circ h</m>.
+          If <m>W</m> is any topological space with continuous maps <m>p_X\colon W\to X</m> and <m>p_Y\colon W\to Y</m> such that <m>f\circ p_X=g\circ p_Y</m>, then there exists a unique continuous map <m>h\colon W\to X\times_ZY</m> such that <m>p_X=\pi_X\circ X</m> and <m>p_Y=\pi_Y\circ h</m>.
         </p>
         <figure>
           <caption>Universal property of pullback</caption>
