@@ -149,4 +149,12 @@
         </p>
       </statement>
     </example>
+
+    <exercise>
+      <statement>
+        <p>
+          We denote by <m>A^t</m> the transpose of <m>A\in M_2(\R)</m>. Show that the following map is continuous. <me>M_2(\R)\to M_2(\R)\times\R\quad\text{given by}\quad A\mapsto\left(AA^t,\det A\right)</me>	Find the preimage of the point <m>\left(I_2,1\right)</m>.
+        </p>
+      </statement>
+    </exercise>
 </section>

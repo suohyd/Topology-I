@@ -52,4 +52,13 @@
       </statement>
     </exercise>
 
+    <exercise xml:id="addtive-group-euclidean-space">
+    <title>(Additive group of the Euclidean space)</title>
+      <statement>
+        <p>
+          Show that <m>+\colon\R^n\times\R^n\to\R^n</m> given by <me>\left((x_1,x_2,\ldots,x_n),(y_1,y_2,\ldots,y_n)\right)\mapsto\left(x_1+y_1,x_2+y_2,\ldots,x_n+y_n\right)</me> is continuous.
+        </p>
+      </statement>
+    </exercise>
+
 </section>
