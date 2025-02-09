@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Pullback\/Fiber product",
-  "body": " Pullback\/Fiber product  In this section we describe the pullback (also called fiber product ) construction for continuous functions on topological spaces.    Let and be topological spaces. Suppose that and be continuous maps. The pullback of along continuous functions is a topological space together with continuous functions and such that and that satisfy the following universal property .  If is any topological space with continuous maps and such that , then there exists a unique continuous map such that and .   Universal property of pullback          We keep notations of . Consider the following subset of with the subspace topology. It can be verified that the above subspace together with natural projection (resp., ) given by (resp., given by ) is pullback.  This shows existence of pullback.      The pullback given in is unique up to homeomorphism.      Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .      Suppose that is a topological space and that be subspaces of . Consider the canonical inclusions, viz., and . The pullback of along these inclusions is the following.       The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is .    "
+  "body": " Pullback\/Fiber product  In this section we describe the pullback (also called fiber product ) construction for continuous functions on topological spaces.    Let and be topological spaces. Suppose that and be continuous maps. The pullback of along continuous functions is a topological space together with continuous functions and such that and that satisfy the following universal property .  If is any topological space with continuous maps and such that , then there exists a unique continuous map such that and .   Universal property of pullback          We keep notations of . Consider the following subset of with the subspace topology. It can be verified that the above subspace together with natural projection (resp., ) given by (resp., given by ) is pullback.  This shows existence of pullback.      The pullback given in is unique up to homeomorphism.     (Fiber over a point as a pullback)   Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .     (Intersection as pullback)   Suppose that is a topological space and that be subspaces of . Consider the canonical inclusions, viz., and . The pullback of along these inclusions is the following.      (Pullback as graph of a function)   The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is . Observe that, in this case, the pullback is the graph of .    "
 },
 {
   "id": "def-pullback-top-spaces",
@@ -366,8 +366,8 @@ var ptx_lunr_docs = [
   "url": "sec-fiber-product.html#sec-fiber-product-6",
   "type": "Example",
   "number": "2.4.5",
-  "title": "",
-  "body": "  Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .   "
+  "title": "(Fiber over a point as a pullback).",
+  "body": " (Fiber over a point as a pullback)   Let be a topological spaces and let be a one point set.  Let and be unique continuous maps. In this case we get that is homeomorphic to .  Suppose that is a continuous map. Let be a map that maps for some . We get that is homeomorphic to .   "
 },
 {
   "id": "sec-fiber-product-7",
@@ -375,8 +375,8 @@ var ptx_lunr_docs = [
   "url": "sec-fiber-product.html#sec-fiber-product-7",
   "type": "Example",
   "number": "2.4.6",
-  "title": "",
-  "body": "  Suppose that is a topological space and that be subspaces of . Consider the canonical inclusions, viz., and . The pullback of along these inclusions is the following.    "
+  "title": "(Intersection as pullback).",
+  "body": " (Intersection as pullback)   Suppose that is a topological space and that be subspaces of . Consider the canonical inclusions, viz., and . The pullback of along these inclusions is the following.    "
 },
 {
   "id": "sec-fiber-product-8",
@@ -384,8 +384,8 @@ var ptx_lunr_docs = [
   "url": "sec-fiber-product.html#sec-fiber-product-8",
   "type": "Example",
   "number": "2.4.7",
-  "title": "",
-  "body": "  The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is .   "
+  "title": "(Pullback as graph of a function).",
+  "body": " (Pullback as graph of a function)   The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is . Observe that, in this case, the pullback is the graph of .   "
 },
 {
   "id": "backmatter-2",
