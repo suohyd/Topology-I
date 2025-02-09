@@ -50,6 +50,9 @@ W \arrow[rdd, bend right,"p_X",labels=below] \arrow[rrd, bend left,"p_Y"] \arrow
     </statement>
   </remark>
   <example>
+  <title>(Fiber over a point as a pullback)</title>
+  
+  
     <statement>
       <p>
         Let <m>X,Y</m> be a topological spaces and let <m>Z=\{\star\}</m> be a one point set.
@@ -64,6 +67,9 @@ W \arrow[rdd, bend right,"p_X",labels=below] \arrow[rrd, bend left,"p_Y"] \arrow
   </example>
   
   <example>
+  <title>(Intersection as pullback)</title>
+  
+  
     <statement>
       <p>
         Suppose that <m>Z</m> is a topological space and that <m>X,Y</m> be subspaces of <m>Z</m>. Consider the canonical inclusions, viz., <m>i_X\colon X\hookrightarrow Z</m> and <m>i_Y\colon Y\hookrightarrow Z</m>. The pullback of <m>X, Y</m> along these inclusions <m>i_X,i_Y</m> is the following.
@@ -77,9 +83,12 @@ W \arrow[rdd, bend right,"p_X",labels=below] \arrow[rrd, bend left,"p_Y"] \arrow
   </example>
 
   <example>
+  <title>(Pullback as graph of a function)</title>
+  
+  
     <statement>
       <p>
-        The continuous functions involved in the pullback construction are important. For instance the pullback of <m>\R</m> along identity functions is <m>\R\times_\R\R=\{(x,x)\in\R\times\R\}\simeq\R</m>. However, the pullback of <m>\R</m> along <m>f\colon\R\to\R</m> given by <m>x\mapsto x^2</m> along with the identity is <m>\R\times_\R\R=\{(x,y)\in\R\times\R:x^2=y\}</m>.
+        The continuous functions involved in the pullback construction are important. For instance the pullback of <m>\R</m> along identity functions is <m>\R\times_\R\R=\{(x,x)\in\R\times\R\}\simeq\R</m>. However, the pullback of <m>\R</m> along <m>f\colon\R\to\R</m> given by <m>x\mapsto x^2</m> along with the identity is <m>\R\times_\R\R=\{(x,y)\in\R\times\R:x^2=y\}</m>. Observe that, in this case, the pullback is the graph of <m>y=x^2</m>.
       </p>
     </statement>
   </example>
