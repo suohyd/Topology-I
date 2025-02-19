@@ -388,6 +388,69 @@ var ptx_lunr_docs = [
   "body": " (Pullback as graph of a function)   The continuous functions involved in the pullback construction are important. For instance the pullback of along identity functions is . However, the pullback of along given by along with the identity is . Observe that, in this case, the pullback is the graph of .   "
 },
 {
+  "id": "sec-connected-top-spaces",
+  "level": "1",
+  "url": "sec-connected-top-spaces.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "Connected topological spaces",
+  "body": " Connected topological spaces    Suppose that is a nonempty topological space. Following statements are equivalent.    There exists nonempty open subsets of such that and .    There exists nonempty closed subsets of such that and .    There are nonempty subsets of such that . Furthermore, limit points of are not contained in and limit points of are not contained in .       (1) (2). The complement of (resp., the complement of ) is an open subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (2) (1). The complement of (resp., the complement of ) is a closed subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (3) (2). Note that and , where and are collections of limit points of and , respectively. By the hypothesis, and ; therefore, and , i.e., are closed subsets and .  (2) (3). We can take and .     A topological space is said to be separated if any one (hence all) the conditions of holds.      A topological space is said to be connected if it is not separated .      For a topological space following statements are equivalent.     is connected    If is both open and closed then, either or .    If where, and then, either or .    Every continuous function is constant, where is given the discrete topolgy.       First three conditions are equivalent follows from the proof of .  Suppose that , where are nonempty disjoint open subsets of . We define such that for every and for every . This is a continuous function. This shows that (4) (1).  Suppose that is connected. If there is a continuous function which is not constant, then and are nonempty disjoint open subsets of and .   "
+},
+{
+  "id": "thm-def-separatedness",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#thm-def-separatedness",
+  "type": "Theorem",
+  "number": "2.5.1",
+  "title": "",
+  "body": "  Suppose that is a nonempty topological space. Following statements are equivalent.    There exists nonempty open subsets of such that and .    There exists nonempty closed subsets of such that and .    There are nonempty subsets of such that . Furthermore, limit points of are not contained in and limit points of are not contained in .     "
+},
+{
+  "id": "sec-connected-top-spaces-3",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#sec-connected-top-spaces-3",
+  "type": "Proof",
+  "number": "2.5.1",
+  "title": "",
+  "body": " (1) (2). The complement of (resp., the complement of ) is an open subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (2) (1). The complement of (resp., the complement of ) is a closed subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (3) (2). Note that and , where and are collections of limit points of and , respectively. By the hypothesis, and ; therefore, and , i.e., are closed subsets and .  (2) (3). We can take and .  "
+},
+{
+  "id": "def-separatedness",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#def-separatedness",
+  "type": "Definition",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  A topological space is said to be separated if any one (hence all) the conditions of holds.   "
+},
+{
+  "id": "def-connected",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#def-connected",
+  "type": "Definition",
+  "number": "2.5.3",
+  "title": "",
+  "body": "  A topological space is said to be connected if it is not separated .   "
+},
+{
+  "id": "thm-equivalent-connectedness",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#thm-equivalent-connectedness",
+  "type": "Theorem",
+  "number": "2.5.4",
+  "title": "",
+  "body": "  For a topological space following statements are equivalent.     is connected    If is both open and closed then, either or .    If where, and then, either or .    Every continuous function is constant, where is given the discrete topolgy.     "
+},
+{
+  "id": "sec-connected-top-spaces-7",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#sec-connected-top-spaces-7",
+  "type": "Proof",
+  "number": "2.5.2",
+  "title": "",
+  "body": " First three conditions are equivalent follows from the proof of .  Suppose that , where are nonempty disjoint open subsets of . We define such that for every and for every . This is a continuous function. This shows that (4) (1).  Suppose that is connected. If there is a continuous function which is not constant, then and are nonempty disjoint open subsets of and .  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
