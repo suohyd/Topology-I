@@ -34,5 +34,66 @@
     <p>
        (2)<m>\implies</m> (1). The complement of <m>A</m> (resp., the complement of <m>B</m>) is a closed subset <m>B</m> (resp., <m>A</m>). Therefore, <m>A</m> and <m>B</m> are both open and closed subsets. Hence, we can take <m>U=A</m> and <m>V=B</m>.
     </p>
+    <p>
+        (3)<m>\implies</m>(2). Note that <m>\overline{C}=C\cup C'</m> and <m>\overline{D}=D\cup D'</m>, where <m>C'</m> and <m>D'</m> are collections of limit points of <m>C</m> and <m>D</m>, respectively. By the hypothesis, <m>C'\not\subset D</m> and <m>D'\not\subset C</m>; therefore, <m>C'\subseteq C</m> and <m>D'\subseteq D</m>, i.e., <m>C,D</m> are closed subsets and <m>C\cap D=\emptyset</m>.
+    </p>
+    <p>
+        (2)<m>\implies</m> (3). We can take <m>C=A</m> and <m>D=B</m>.
+    </p>
   </proof>
+  <definition xml:id="def-separatedness">
+    <statement>
+        <p>
+            A topological space <m>X</m> is said to be <term>separated</term> if any one (hence all) the conditions of <xref ref="thm-def-separatedness"/> holds.
+        </p>
+    </statement>
+  </definition>
+  <definition xml:id="def-connected">
+    <statement>
+        <p>
+            A topological space <m>X</m> is said to be <term>connected</term> if it is <em>not separated</em>.
+        </p>
+    </statement>
+  </definition>
+  <theorem xml:id="thm-equivalent-connectedness">
+    <statement>
+        <p>
+            For a topological space <m>X</m> following statements are equivalent.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <m>X</m> is connected
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>Y\subseteq X</m> is both open and closed then, either <m>Y=\emptyset</m> or <m>Y=X</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>X=A\cup B</m> where, <m>\overline{A}\cap B=\emptyset</m> and <m>\overline{B}\cap A=\emptyset</m> then, either <m>A=\emptyset</m> or <m>B=\emptyset</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Every continuous function <m>f\colon X\to\{0,1\}</m> is constant, where <m>\{0,1\}</m> is given the discrete topolgy.
+                </p>
+            </li>
+        </ol>
+    </statement>
+  </theorem>
+  <proof>
+    <p>
+        First three conditions are equivalent follows from the proof of <xref ref="thm-def-separatedness"/>.
+    </p>
+    <p>
+        Suppose that <m>X=U\cup V</m>, where <m>U,V</m> are nonempty disjoint open subsets of <m>X</m>. We define <m>f\colon X\to\{0,1\}</m> such that <m>f(u)=0</m> for every <m>u\in U</m> and <m>f(v)=1</m> for every <m>v\in V</m>. This is a continuous function. This shows that (4)<m>\implies</m> (1).
+    </p>
+    <p>
+        Suppose that <m>X</m> is connected. If there is a continuous function <m>f\colon X\to\{0,1\}</m> which is not constant, then <m>U=f^{-1}\{0\}</m> and <m>V=f^{-1}\{1\}</m> are nonempty disjoint open subsets of <m>X</m> and <m>X=U\cup V</m>.
+    </p>
+  </proof>
+  
 </section>
