@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-connected-top-spaces" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Connected topological spaces</title>
+
+  <theorem xml:id="thm-def-separatedness">
+    <statement>
+        <p>
+            Suppose that <m>X</m> is a nonempty topological space. Following statements are equivalent.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    There exists nonempty open subsets <m>U,V</m> of <m>X</m> such that <m>U\cap V=\emptyset</m> and <m>X=U\cup V</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    There exists nonempty closed subsets <m>A,B</m> of <m>X</m> such that <m>A\cap B=\emptyset</m> and <m>X=A\cup B</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    There are nonempty subsets <m>C,D</m> of <m>X</m> such that <m>X=C\cup D</m>. Furthermore, limit points of <m>C</m> are not contained in <m>D</m> and limit points of <m>D</m> are not contained in <m>C</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+  </theorem>
+  <proof>
+    <p>
+        (1)<m>\implies</m> (2). The complement of <m>U</m> (resp., the complement of <m>V</m>) is an open subset <m>V</m> (resp., <m>U</m>). Therefore, <m>U</m> and <m>V</m> are both open and closed subsets. Hence, we can take <m>A=U</m> and <m>B=V</m>.
+    </p>
+    <p>
+       (2)<m>\implies</m> (1). The complement of <m>A</m> (resp., the complement of <m>B</m>) is a closed subset <m>B</m> (resp., <m>A</m>). Therefore, <m>A</m> and <m>B</m> are both open and closed subsets. Hence, we can take <m>U=A</m> and <m>V=B</m>.
+    </p>
+  </proof>
+</section>
