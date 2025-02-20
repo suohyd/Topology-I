@@ -32,7 +32,7 @@
         (1)<m>\implies</m> (2). The complement of <m>U</m> (resp., the complement of <m>V</m>) is the open subset <m>V</m> (resp., <m>U</m>). Therefore, <m>U</m> and <m>V</m> are both open and closed subsets. Hence, we can take <m>A=U</m> and <m>B=V</m>.
     </p>
     <p>
-       (2)<m>\implies</m> (1). The complement of <m>A</m> (resp., the complement of <m>B</m>) is a closed subset <m>B</m> (resp., <m>A</m>). Therefore, <m>A</m> and <m>B</m> are both open and closed subsets. Hence, we can take <m>U=A</m> and <m>V=B</m>.
+       (2)<m>\implies</m> (1). The complement of <m>A</m> (resp., the complement of <m>B</m>) is the closed subset <m>B</m> (resp., <m>A</m>). Therefore, <m>A</m> and <m>B</m> are both open and closed subsets. Hence, we can take <m>U=A</m> and <m>V=B</m>.
     </p>
     <p>
         (3)<m>\implies</m>(2). Note that <m>\overline{C}=C\cup C'</m> and <m>\overline{D}=D\cup D'</m>, where <m>C'</m> and <m>D'</m> are collections of limit points of <m>C</m> and <m>D</m>, respectively. By the hypothesis, <m>C'\not\subset D</m> and <m>D'\not\subset C</m>; therefore, <m>C'\subseteq C</m> and <m>D'\subseteq D</m>, i.e., <m>C,D</m> are closed subsets and <m>C\cap D=\emptyset</m>.
