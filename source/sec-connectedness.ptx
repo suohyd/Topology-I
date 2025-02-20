@@ -29,7 +29,7 @@
   </theorem>
   <proof>
     <p>
-        (1)<m>\implies</m> (2). The complement of <m>U</m> (resp., the complement of <m>V</m>) is an open subset <m>V</m> (resp., <m>U</m>). Therefore, <m>U</m> and <m>V</m> are both open and closed subsets. Hence, we can take <m>A=U</m> and <m>B=V</m>.
+        (1)<m>\implies</m> (2). The complement of <m>U</m> (resp., the complement of <m>V</m>) is the open subset <m>V</m> (resp., <m>U</m>). Therefore, <m>U</m> and <m>V</m> are both open and closed subsets. Hence, we can take <m>A=U</m> and <m>B=V</m>.
     </p>
     <p>
        (2)<m>\implies</m> (1). The complement of <m>A</m> (resp., the complement of <m>B</m>) is a closed subset <m>B</m> (resp., <m>A</m>). Therefore, <m>A</m> and <m>B</m> are both open and closed subsets. Hence, we can take <m>U=A</m> and <m>V=B</m>.
