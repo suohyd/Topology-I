@@ -106,4 +106,15 @@
         </p>
     </statement>
   </example>
+  <example>
+    <title>(Product of two connected spaces is connected)</title>
+    <statement>
+        <p>
+            Suppose that <m>X,Y</m> are connected topological spaces. We show that <m>X\times Y</m> is connected.
+        </p>
+        <p>
+            Suppose that <m>(a,b)\in X\times Y</m> and <m>(x,y)\in X\times Y</m> are distinct points. Consider a continuous function <m>f\colon X\times Y\to \{0,1\}</m>. The subspace <m>\{a\}\times Y\simeq Y</m>, and hence <m>\{a\}\times Y</m> is connected. Therefore, <m>f(a,b)=f(a,y')</m> for every <m>y'\in Y</m>. In particular, <m>f(a,b)=f(a,y)</m>. Similarly, <m>X\times \{y\}</m> is connected and hence, <m>f(x',y)=f(x,y)</m> for every <m>x'\in X</m>. In particular, <m>f(a,y)=f(x,y)</m>. Therefore, we obtain that <m>f(a,b)=f(a,y)=f(x,y)</m>, i.e., <m>f</m> is a constant function.
+        </p>
+    </statement>
+  </example>
 </section>
