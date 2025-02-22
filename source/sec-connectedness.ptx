@@ -95,5 +95,15 @@
         Suppose that <m>X</m> is connected. If there is a continuous function <m>f\colon X\to\{0,1\}</m> which is not constant, then <m>U=f^{-1}\{0\}</m> and <m>V=f^{-1}\{1\}</m> are nonempty disjoint open subsets of <m>X</m> and <m>X=U\cup V</m>.
     </p>
   </proof>
-  
+  <example>
+    <title>(Any interval is connected)</title> 
+    <statement>
+        <p>
+            Suppose that <m>I</m> is an interval in <m>\R</m>. Suppose that <m>f\colon I\to\{0,1\}</m> be a continuous function. Further assume that <m>a,b\in I</m>, <m>a&lt;b</m>, and that <m>f(a)=0</m>. Consider <m>u=\sup\{c:a\leq c\leq b\text{ and }f(c)=0\}</m>. Note that <m>f(u)=0</m>. Indeed, if <m>f(u)\neq 0</m>, i.e., <m>f(u)=1</m> then, <m>u</m> is a limit point of <m>A=\{c:a\leq c\leq b\text{ and }f(c)=0\}</m>, i.e., <m>u\in\overline{A}</m>. By the continuity of <m>f</m>, we must have <m>f\left(\overline{A}\right)\subseteq\overline{f(A)}</m>. However, <m>\overline{f(A)}=\{0\}</m> while <m>f\left(\overline{A}\right)=\{0,1\}</m> as <m>1=f(u)\in f\left(\overline{A}\right)</m>.
+        </p>
+        <p>
+            We claim that <m>u=y</m>. Indeed, if <m>u&lt;y</m> then, <m>u\in\overline{\left([x,y]\setminus A\right)}</m>. Arguing on the similar lines as in the above paragraph we get a contradiction.
+        </p>
+    </statement>
+  </example>
 </section>
