@@ -394,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Connected topological spaces",
-  "body": " Connected topological spaces    Suppose that is a nonempty topological space. Following statements are equivalent.    There exists nonempty open subsets of such that and .    There exists nonempty closed subsets of such that and .    There are nonempty subsets of such that . Furthermore, limit points of are not contained in and limit points of are not contained in .       (1) (2). The complement of (resp., the complement of ) is the open subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (2) (1). The complement of (resp., the complement of ) is the closed subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (3) (2). Note that and , where and are collections of limit points of and , respectively. By the hypothesis, and ; therefore, and , i.e., are closed subsets and .  (2) (3). We can take and .     A topological space is said to be separated if any one (hence all) the conditions of holds.      A topological space is said to be connected if it is not separated .      For a topological space following statements are equivalent.     is connected    If is both open and closed then, either or .    If where, and then, either or .    Every continuous function is constant, where is given the discrete topolgy.       First three conditions are equivalent follows from the proof of .  Suppose that , where are nonempty disjoint open subsets of . We define such that for every and for every . This is a continuous function. This shows that (4) (1).  Suppose that is connected. If there is a continuous function which is not constant, then and are nonempty disjoint open subsets of and .   "
+  "body": " Connected topological spaces    Suppose that is a nonempty topological space. Following statements are equivalent.    There exists nonempty open subsets of such that and .    There exists nonempty closed subsets of such that and .    There are nonempty subsets of such that . Furthermore, limit points of are not contained in and limit points of are not contained in .       (1) (2). The complement of (resp., the complement of ) is the open subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (2) (1). The complement of (resp., the complement of ) is the closed subset (resp., ). Therefore, and are both open and closed subsets. Hence, we can take and .  (3) (2). Note that and , where and are collections of limit points of and , respectively. By the hypothesis, and ; therefore, and , i.e., are closed subsets and .  (2) (3). We can take and .     A topological space is said to be separated if any one (hence all) the conditions of holds.      A topological space is said to be connected if it is not separated .      For a topological space following statements are equivalent.     is connected    If is both open and closed then, either or .    If where, and then, either or .    Every continuous function is constant, where is given the discrete topolgy.       First three conditions are equivalent follows from the proof of .  Suppose that , where are nonempty disjoint open subsets of . We define such that for every and for every . This is a continuous function. This shows that (4) (1).  Suppose that is connected. If there is a continuous function which is not constant, then and are nonempty disjoint open subsets of and .    (Any interval is connected)   Suppose that is an interval in . Suppose that be a continuous function. Further assume that , , and that . Consider . Note that . Indeed, if , i.e., then, is a limit point of , i.e., . By the continuity of , we must have . However, while as .  We claim that . Indeed, if then, . Arguing on the similar lines as in the above paragraph we get a contradiction.     (Product of two connected spaces is connected)   Suppose that are connected topological spaces. We show that is connected.  Suppose that and are distinct points. Consider a continuous function . The subspace , and hence is connected. Therefore, for every . In particular, . Similarly, is connected and hence, for every . In particular, . Therefore, we obtain that , i.e., is a constant function.    "
 },
 {
   "id": "thm-def-separatedness",
@@ -449,6 +449,24 @@ var ptx_lunr_docs = [
   "number": "2.5.2",
   "title": "",
   "body": " First three conditions are equivalent follows from the proof of .  Suppose that , where are nonempty disjoint open subsets of . We define such that for every and for every . This is a continuous function. This shows that (4) (1).  Suppose that is connected. If there is a continuous function which is not constant, then and are nonempty disjoint open subsets of and .  "
+},
+{
+  "id": "sec-connected-top-spaces-8",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#sec-connected-top-spaces-8",
+  "type": "Example",
+  "number": "2.5.5",
+  "title": "(Any interval is connected).",
+  "body": " (Any interval is connected)   Suppose that is an interval in . Suppose that be a continuous function. Further assume that , , and that . Consider . Note that . Indeed, if , i.e., then, is a limit point of , i.e., . By the continuity of , we must have . However, while as .  We claim that . Indeed, if then, . Arguing on the similar lines as in the above paragraph we get a contradiction.   "
+},
+{
+  "id": "sec-connected-top-spaces-9",
+  "level": "2",
+  "url": "sec-connected-top-spaces.html#sec-connected-top-spaces-9",
+  "type": "Example",
+  "number": "2.5.6",
+  "title": "(Product of two connected spaces is connected).",
+  "body": " (Product of two connected spaces is connected)   Suppose that are connected topological spaces. We show that is connected.  Suppose that and are distinct points. Consider a continuous function . The subspace , and hence is connected. Therefore, for every . In particular, . Similarly, is connected and hence, for every . In particular, . Therefore, we obtain that , i.e., is a constant function.   "
 },
 {
   "id": "backmatter-2",
