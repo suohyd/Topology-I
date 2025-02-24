@@ -100,12 +100,11 @@
     <statement>
         <p>
             Suppose that <m>I</m> is an interval in <m>\R</m>. Suppose that <m>f\colon I\to\{0,1\}</m> be a continuous function. Further assume that <m>a,b\in I</m>, <m>a&lt;b</m>, and that <m>f(a)=0</m>. Consider <m>u=\sup\{c:a\leq c\leq b\text{ and }f(c)=0\}</m>. Note that <m>f(u)=0</m>. Indeed, if <m>f(u)\neq 0</m>, i.e., <m>f(u)=1</m> then, <m>u</m> is a limit point of <m>A=\{c:a\leq c\leq b\text{ and }f(c)=0\}</m>, i.e., <m>u\in\overline{A}</m>. By the continuity of <m>f</m>, we must have <m>f\left(\overline{A}\right)\subseteq\overline{f(A)}</m>. However, <m>\overline{f(A)}=\{0\}</m> while <m>f\left(\overline{A}\right)=\{0,1\}</m> as <m>1=f(u)\in f\left(\overline{A}\right)</m>.
-        </p>
-        <p>
+
             We claim that <m>u=y</m>. Indeed, if <m>u&lt;y</m> then, <m>u\in\overline{\left([x,y]\setminus A\right)}</m>. Arguing on the similar lines as in the above paragraph we get a contradiction.
         </p>
         <p>
-            
+            Suppose that <m>Y</m> is a connected subset of <m>\R</m>. If <m>a,b\in Y</m> are such that <m>a&lt;b</m> and if <m>y\in\R</m> is such that <m>a&lt;y&lt;b</m> but <m>y\not\in Y</m>. Then, <m>X=\left(X\cap (-\infty,x)\right)\cup\left(X\cap (x,\infty)\right)</m>.
         </p>
     </statement>
   </example>
@@ -119,5 +118,22 @@
             Suppose that <m>(a,b)\in X\times Y</m> and <m>(x,y)\in X\times Y</m> are distinct points. Consider a continuous function <m>f\colon X\times Y\to \{0,1\}</m>. The subspace <m>\{a\}\times Y\simeq Y</m>, and hence <m>\{a\}\times Y</m> is connected. Therefore, <m>f(a,b)=f(a,y')</m> for every <m>y'\in Y</m>. In particular, <m>f(a,b)=f(a,y)</m>. Similarly, <m>X\times \{y\}</m> is connected and hence, <m>f(x',y)=f(x,y)</m> for every <m>x'\in X</m>. In particular, <m>f(a,y)=f(x,y)</m>. Therefore, we obtain that <m>f(a,b)=f(a,y)=f(x,y)</m>, i.e., <m>f</m> is a constant function.
         </p>
     </statement>
+  </example>
+  <example>
+    <title>(Interior of a connected space need not be connected)</title>
+    <statement>
+        <p>
+            Choose two closed unit discs in <m>\R^2</m> touching at a single point, say <m>D_1</m> centered at <m>(0,0)</m>, and <m>D_2</m> centered at <m>(2,0)</m>. The interior of <m>D_1\cup D_2</m> is the union of two disjoint open unit discs, viz., one centered at <m>(0,0)</m> and the other centered at <m>(2,0)</m>.
+        </p>
+    </statement>
+  </example>
+  <example>
+    <title>(Closure of a connected space is connected)</title>
+    <statement>
+        <p>
+            Left as an exercise.
+        </p>
+    </statement>
+    
   </example>
 </section>
