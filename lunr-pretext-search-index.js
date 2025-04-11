@@ -492,8 +492,8 @@ var ptx_lunr_docs = [
   "url": "ex-open-closed-interior.html",
   "type": "Exercises",
   "number": "3",
-  "title": "Open, closed sets, interior and closure of sets",
-  "body": " Open, closed sets, interior and closure of sets  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    Let . The interval is an open subset in .   One may approximate from the right, for instance, by considering .    Let . The interval is a closed subset of in the usual topology.   If were closed then, its complement will be open. However, any open interval of containing will contain points other than .    If the interval is given the subspace topology from then, is an open subset of .   We have .    Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Let be a nonempty topological space with indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .    The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.    If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .    The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .    There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .    Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .    "
+  "title": "Exercises related to open, closed sets, interior and closure of sets",
+  "body": " Exercises related to open, closed sets, interior and closure of sets  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    Let . The interval is an open subset in .   One may approximate from the right, for instance, by considering .    Let . The interval is a closed subset of in the usual topology.   If were closed then, its complement will be open. However, any open interval of containing will contain points other than .    If the interval is given the subspace topology from then, is an open subset of .   We have .    If is a closed subset of then, is a closed subset of for every .   Let be a limit point of . Thus, there exists a sequence , i.e., , i.e., is a limit point of . As is closed, . Hence, there exists such that , i.e., .    Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Consider with the subspace topology induced from . Then, is not an open subset of .    Let be a nonempty topological space with the indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .    The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.    If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .    The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .    There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .    Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .    Let be given the subspace topology. If is a discrete subspace then, is countable.   For any there exists an open interval such that as the induced topology on is discrete. For we can choose smaller intervals, say and such that , , and . For each pick . Then, the map given by is injective.    Let be a topological space. For any subset of , the boundary of and the boundary of are the same.   Let be the real numbers with cofinite topology. Suppose that . For any and an open subset containing . As is finite, . Hence, . Similar reasoning show that there are no nonempty open subsets in , i.e., . Therefore, the boundary of , while the boundary of .  We remark that the above statement is true if is assumed to be a Hausdorff space.    Let be a metric space. Suppose that be open balls of radii , respectively. If then, .   Let . Thus, . We thus have the following inequalities.     "
 },
 {
   "id": "ex-open-closed-interior-3-2",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4",
   "title": "",
-  "body": " Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)    "
+  "body": " If is a closed subset of then, is a closed subset of for every .   Let be a limit point of . Thus, there exists a sequence , i.e., , i.e., is a limit point of . As is closed, . Hence, there exists such that , i.e., .  "
 },
 {
   "id": "ex-open-closed-interior-3-6",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5",
   "title": "",
-  "body": " Let be a nonempty topological space with indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .  "
+  "body": " Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)    "
 },
 {
   "id": "ex-open-closed-interior-3-7",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6",
   "title": "",
-  "body": " The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.  "
+  "body": " Consider with the subspace topology induced from . Then, is not an open subset of .  "
 },
 {
   "id": "ex-open-closed-interior-3-8",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.7",
   "title": "",
-  "body": " If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .  "
+  "body": " Let be a nonempty topological space with the indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .  "
 },
 {
   "id": "ex-open-closed-interior-3-9",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8",
   "title": "",
-  "body": " The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .  "
+  "body": " The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.  "
 },
 {
   "id": "ex-open-closed-interior-3-10",
@@ -574,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.9",
   "title": "",
-  "body": " There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .  "
+  "body": " If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .  "
 },
 {
   "id": "ex-open-closed-interior-3-11",
@@ -583,7 +583,52 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.10",
   "title": "",
+  "body": " The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .  "
+},
+{
+  "id": "ex-open-closed-interior-3-12",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-12",
+  "type": "Exercise",
+  "number": "3.11",
+  "title": "",
+  "body": " There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .  "
+},
+{
+  "id": "ex-open-closed-interior-3-13",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-13",
+  "type": "Exercise",
+  "number": "3.12",
+  "title": "",
   "body": " Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .  "
+},
+{
+  "id": "ex-open-closed-interior-3-14",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-14",
+  "type": "Exercise",
+  "number": "3.13",
+  "title": "",
+  "body": " Let be given the subspace topology. If is a discrete subspace then, is countable.   For any there exists an open interval such that as the induced topology on is discrete. For we can choose smaller intervals, say and such that , , and . For each pick . Then, the map given by is injective.  "
+},
+{
+  "id": "ex-open-closed-interior-3-15",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-15",
+  "type": "Exercise",
+  "number": "3.14",
+  "title": "",
+  "body": " Let be a topological space. For any subset of , the boundary of and the boundary of are the same.   Let be the real numbers with cofinite topology. Suppose that . For any and an open subset containing . As is finite, . Hence, . Similar reasoning show that there are no nonempty open subsets in , i.e., . Therefore, the boundary of , while the boundary of .  We remark that the above statement is true if is assumed to be a Hausdorff space.  "
+},
+{
+  "id": "ex-open-closed-interior-3-16",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-16",
+  "type": "Exercise",
+  "number": "3.15",
+  "title": "",
+  "body": " Let be a metric space. Suppose that be open balls of radii , respectively. If then, .   Let . Thus, . We thus have the following inequalities.   "
 },
 {
   "id": "backmatter-2",
