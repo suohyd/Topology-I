@@ -487,6 +487,105 @@ var ptx_lunr_docs = [
   "body": " (Closure of a connected space is connected)   Left as an exercise.   "
 },
 {
+  "id": "ex-open-closed-interior",
+  "level": "1",
+  "url": "ex-open-closed-interior.html",
+  "type": "Exercises",
+  "number": "3",
+  "title": "Open, closed sets, interior and closure of sets",
+  "body": " Open, closed sets, interior and closure of sets  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    Let . The interval is an open subset in .   One may approximate from the right, for instance, by considering .    Let . The interval is a closed subset of in the usual topology.   If were closed then, its complement will be open. However, any open interval of containing will contain points other than .    If the interval is given the subspace topology from then, is an open subset of .   We have .    Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Let be a nonempty topological space with indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .    The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.    If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .    The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .    There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .    Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .    "
+},
+{
+  "id": "ex-open-closed-interior-3-2",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-2",
+  "type": "Exercise",
+  "number": "3.1",
+  "title": "",
+  "body": " Let . The interval is an open subset in .   One may approximate from the right, for instance, by considering .  "
+},
+{
+  "id": "ex-open-closed-interior-3-3",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-3",
+  "type": "Exercise",
+  "number": "3.2",
+  "title": "",
+  "body": " Let . The interval is a closed subset of in the usual topology.   If were closed then, its complement will be open. However, any open interval of containing will contain points other than .  "
+},
+{
+  "id": "ex-open-closed-interior-3-4",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-4",
+  "type": "Exercise",
+  "number": "3.3",
+  "title": "",
+  "body": " If the interval is given the subspace topology from then, is an open subset of .   We have .  "
+},
+{
+  "id": "ex-open-closed-interior-3-5",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-5",
+  "type": "Exercise",
+  "number": "3.4",
+  "title": "",
+  "body": " Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)    "
+},
+{
+  "id": "ex-open-closed-interior-3-6",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-6",
+  "type": "Exercise",
+  "number": "3.5",
+  "title": "",
+  "body": " Let be a nonempty topological space with indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .  "
+},
+{
+  "id": "ex-open-closed-interior-3-7",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-7",
+  "type": "Exercise",
+  "number": "3.6",
+  "title": "",
+  "body": " The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.  "
+},
+{
+  "id": "ex-open-closed-interior-3-8",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-8",
+  "type": "Exercise",
+  "number": "3.7",
+  "title": "",
+  "body": " If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .  "
+},
+{
+  "id": "ex-open-closed-interior-3-9",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-9",
+  "type": "Exercise",
+  "number": "3.8",
+  "title": "",
+  "body": " The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .  "
+},
+{
+  "id": "ex-open-closed-interior-3-10",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-10",
+  "type": "Exercise",
+  "number": "3.9",
+  "title": "",
+  "body": " There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .  "
+},
+{
+  "id": "ex-open-closed-interior-3-11",
+  "level": "2",
+  "url": "ex-open-closed-interior.html#ex-open-closed-interior-3-11",
+  "type": "Exercise",
+  "number": "3.10",
+  "title": "",
+  "body": " Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
