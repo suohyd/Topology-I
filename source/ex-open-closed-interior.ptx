@@ -1,5 +1,5 @@
 <exercises xml:id="ex-open-closed-interior" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Open, closed sets, interior and closure of sets</title>
+    <title>Exercises related to open, closed sets, interior and closure of sets</title>
 <p>
     We list a large number of small exercises for practice. Some of the exercises are taken from <sq>Elementary topology problem textbook</sq> by Viro et.al.
 </p>
@@ -39,12 +39,24 @@
     <exercise>
         <statement correct="correct">
             <p>
-                If the interval is given <m>[0,2]</m> the subspace topology from <m>\R</m> then, <m>[0,1)</m> is an open subset of <m>[0,2]</m>.
+                If the interval <m>[0,2]</m> is given the subspace topology from <m>\R</m> then, <m>[0,1)</m> is an open subset of <m>[0,2]</m>.
             </p>
         </statement>
         <feedback>
             <p>
                 We have <m>[0,1)=(-1,1)\cap [0,2]</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                If <m>A</m> is a closed subset of <m>\R^2</m> then, <m>x+A=\{x+a:a\in A\}</m> is a closed subset of <m>\R^2</m> for every <m>x\in\R^2</m>.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Let <m>y\in\R^2</m> be a limit point of <m>x+A</m>. Thus, there exists a sequence <m>x+a_n\to y</m>, i.e., <m>a_n\to y-x</m>, i.e., <m>y-x</m> is a limit point of <m>A</m>. As <m>A</m> is closed, <m>y-x\in A</m>. Hence, there exists <m>a\in A</m> such that <m>a=y-x</m>, i.e., <m>y=x+a\in x+A</m>.
             </p>
         </feedback>
     </exercise>
@@ -110,11 +122,18 @@
             </choice>
         
         </choices>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                Consider <m>X=\{(x,y)\in\R^2:x\geq 0\text{ and }y\geq 0\}</m> with the subspace topology induced from <m>\R^2</m>. Then, <m>Y=\{(x,y)\in X:0\leq x&lt;2\text{ and }0\leq y&lt;2\}</m> is not an open subset of <m>X</m>.
+            </p>
+        </statement>
     </exercise>    
-        <exercise>
+    <exercise>
             <statement correct="yes">
                 <p>
-                    Let <m>(X,\tau)</m> be a nonempty topological space with indiscrete topology, i.e., <m>\tau=\{\emptyset,X\}</m>. For <m>x\in X</m>, the closure of <m>\{x\}</m> is <m>X</m>.
+                    Let <m>(X,\tau)</m> be a nonempty topological space with the indiscrete topology, i.e., <m>\tau=\{\emptyset,X\}</m>. For <m>x\in X</m>, the closure of <m>\{x\}</m> is <m>X</m>.
                 </p>
             </statement>
             <feedback>
@@ -191,5 +210,49 @@
             </p>
         </feedback>
     </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                Let <m>X\subseteq\R</m> be given the subspace topology. If <m>X</m> is a discrete subspace then, <m>X</m> is countable.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                For any <m>x\in X</m> there exists an open interval <m>U_x</m> such that <m>U_x\cap X=\{x\}</m> as the induced topology on <m>X</m> is discrete. For <m>x\neq y</m> we can choose smaller intervals, say <m>x\in I_x</m> and <m>y\in I_y</m> such that <m>I_x\cap I_y=\emptyset</m>, <m>I_x\cap X=\{x\}</m>, and <m>I_y\cap X=\{y\}</m>. For each <m>x\in X</m> pick <m>q_x\in I_x\cap\Q</m>. Then, the map <m>X\to\Q</m> given by <m>x\mapsto q_x</m> is injective.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                Let <m>X</m> be a topological space. For any subset <m>A</m> of <m>X</m>, the boundary of <m>A</m> and the boundary of <m>\overline{A}</m> are the same.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Let <m>X</m> be the real numbers with cofinite topology. Suppose that <m>A=[0,1]</m>. For any <m>x\in\R</m> and an open subset <m>U_x</m> containing <m>x</m>. As <m>\R\setminus U_x</m> is finite, <m>U_x\cap [0,1]\neq\emptyset</m>. Hence, <m>\overline{A}=X</m>. Similar reasoning show that there are no nonempty open subsets in <m>A</m>, i.e., <m>A^o=\emptyset</m>. Therefore, the boundary of <m>A=\overline{A}\setminus A^o=X</m>, while the boundary of <m>\overline{A}=X=\emptyset</m>.
+            </p>
+            <p>
+                We remark that the above statement is <em>true</em> if <m>X</m> is assumed to be a Hausdorff space.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                Let <m>(X,d)</m> be a metric space. Suppose that <m>B_r(x), B_s(y)</m> be open balls of radii <m>r,s</m>, respectively. If <m>B_r(x)\subsetneq B_s(y)</m> then, <m>r&lt;2s</m>.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Let <m>z\in B_s(y)\setminus B_r(x)</m>. Thus, <m>r\leq d(x,z)</m>. We thus have the following inequalities.
+                <me>
+                    r\leq d(x,z)\leq d(x,y)+d(y,z)&lt; 2s
+                </me>
+                
+            </p>
+        </feedback>
+    </exercise>
+
 </exercisegroup>
 </exercises>
