@@ -14,6 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./ch-General-constructions.ptx" />
     <xi:include href="./ch-topological-spaces.ptx" />
+    <xi:include href="./ex-open-closed-interior.ptx" />
 
 
     <!-- Include backmatter -->

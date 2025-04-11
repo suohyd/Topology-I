@@ -1,0 +1,195 @@
+<exercises xml:id="ex-open-closed-interior" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Open, closed sets, interior and closure of sets</title>
+<p>
+    We list a large number of small exercises for practice. Some of the exercises are taken from <sq>Elementary topology problem textbook</sq> by Viro et.al.
+</p>
+<exercisegroup>
+
+    <introduction>
+        <p>
+            State whether the following statements are true or false. Justify your answers.
+        </p>
+    </introduction>
+
+    <exercise>
+        <statement correct="yes">
+            <p>
+                Let <m>a,b\in\R</m>. The interval <m>(a,b)</m> is an open subset in <m>\R_\ell</m>.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                One may approximate <m>a</m> from the right, for instance, by considering <m>a+1/n</m>.
+            </p>
+        </feedback>
+    </exercise>
+
+    <exercise>
+        <statement correct="no">
+            <p>
+                Let <m>a,b\in\R</m>. The interval <m>[a,b)</m> is a closed subset of <m>\R</m> in the usual topology.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                If <m>[a,b)</m> were closed then, its complement <m>(-\infty,a)\cup[b,\infty)</m> will be open. However, any open interval of <m>\R</m> containing <m>b</m> will contain points other than <m>\R\setminus[a,b)</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="correct">
+            <p>
+                If the interval is given <m>[0,2]</m> the subspace topology from <m>\R</m> then, <m>[0,1)</m> is an open subset of <m>[0,2]</m>.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                We have <m>[0,1)=(-1,1)\cap [0,2]</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>X=[0,1]\cup(2,3)</m> be given the subspace topology from <m>\R</m>. Consider the following subsets of <m>X</m>.
+                <me>
+                    Y=[0,1]\quad\text{and}\quad Z=(2,3)
+                </me>
+                
+            </p>
+        </statement>
+        
+        <choices>
+            <choice>
+                <statement>
+                    <p>
+                        Both <m>Y,Z</m> are closed but not open.
+                    </p>
+                </statement>
+                <feedback>
+                    <p>
+                        The complement of <m>Y</m> (resp., <m>Z</m>) is open (resp., closed). Therefore, <m>Y</m> is closed (resp., open). Furthermore, as <m>Y=(-1,1.5)\cap X</m> (resp., <m>Z=[1.5,3.5]\cap X</m>), <m>Y</m> is open (resp., <m>Z</m> is closed.)
+                    </p>
+                </feedback>
+            </choice>
+            <choice correct="yes">
+                <statement>
+                    <p>
+                        Both <m>Y,Z</m> are open as well as closed.
+                    </p>
+                </statement>
+                <feedback>
+                    <p>
+                        The complement of <m>Y</m> (resp., <m>Z</m>) is open (resp., closed). Therefore, <m>Y</m> is closed (resp., open). Furthermore, as <m>Y=(-1,1.5)\cap X</m> (resp., <m>Z=[1.5,3.5]\cap X</m>), <m>Y</m> is open (resp., <m>Z</m> is closed.)
+                    </p>
+                </feedback>
+            </choice>
+            <choice>
+                <statement>
+                    <p>
+                        The <m>Y</m> is closed but not open, and <m>Z</m> is open but not closed.
+                    </p>
+                </statement>
+                <feedback>
+                    <p>
+                        The complement of <m>Y</m> (resp., <m>Z</m>) is open (resp., closed). Therefore, <m>Y</m> is closed (resp., open). Furthermore, as <m>Y=(-1,1.5)\cap X</m> (resp., <m>Z=[1.5,3.5]\cap X</m>), <m>Y</m> is open (resp., <m>Z</m> is closed.)
+                    </p>
+                </feedback>
+            </choice>
+            <choice>
+                <statement>
+                    <p>
+                        The <m>Z</m> is closed but not open, and <m>Y</m> is open but not closed.
+                    </p>
+                </statement>
+                <feedback>
+                    <p>
+                        The complement of <m>Y</m> (resp., <m>Z</m>) is open (resp., closed). Therefore, <m>Y</m> is closed (resp., open). Furthermore, as <m>Y=(-1,1.5)\cap X</m> (resp., <m>Z=[1.5,3.5]\cap X</m>), <m>Y</m> is open (resp., <m>Z</m> is closed.)
+                    </p>
+                </feedback>
+            </choice>
+        
+        </choices>
+    </exercise>    
+        <exercise>
+            <statement correct="yes">
+                <p>
+                    Let <m>(X,\tau)</m> be a nonempty topological space with indiscrete topology, i.e., <m>\tau=\{\emptyset,X\}</m>. For <m>x\in X</m>, the closure of <m>\{x\}</m> is <m>X</m>.
+                </p>
+            </statement>
+            <feedback>
+                <p>
+                    If <m>X=\{x\}</m> then, we are done. So assume that there exists <m>y\in X</m> distinct from <m>x</m>. The only open set containing <m>y</m> is <m>X</m>, and thus, <m>y\in\overline{\{x\}}</m>.
+                </p>
+            </feedback>
+        
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                The interior of rational (resp., irrational) numbers is nonempty.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                One may use density of rational numbers to conclude that the interior of <m>\Q</m> is empty.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                If <m>A_n</m> are subsets of <m>\R</m> then, <me>
+                    \left(\bigcap A_n\right)^o=\bigcap A_n^o.
+                </me>
+                 
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Consider sets <m>A_n=(-1/n,1+1/n)</m>. As <m>A_n</m> are open, <m>A_n^o=A_n</m> and hence, <m>\cap A_n^o=\cap A_n=[0,1]</m> which is a closed set. However, <m>\left(\cap A_n\right)^o=\left([0,1]\right)^o=(0,1)</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                The interior of <m>(0,1)</m> is empty and its closure is <m>\R</m> when <m>\R</m> is given the cofinite topology.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                The interior of a set <m>A</m> is the largest open set contained in <m>A</m>. In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set <m>U</m> is an interior of <m>(0,1)</m> then, <m>\R\setminus U</m> is a finite set. However, as <m>\R\setminus (0,1)\subseteq\R\setminus U</m>, and <m>\R\setminus (0,1)</m> is infinite, we must have <m>U=\emptyset</m>.
+            </p>
+            <p>
+                Given any <m>x\in\R</m> and a nonempty open subset <m>U</m> containing <m>x</m>, <m>(0,1)\cap U\neq\emptyset</m> because <m>\R\setminus U</m> is a finite set. Therefore, <m>x\in\overline{(0,1)}</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+               There exists a set <m>A</m> such that <m>A,A^o,\overline{A},\overline{A^o}</m> are all pairwise distinct. 
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Consider <m>A=[0,1)\cup(1,2]\cup\left(\Q\cap [3,4]\right)\cup\{5\}</m> as a subset of <m>\R</m> with the usual topology. Here,
+                <m>A^o=(0,1)\cup (1,2)</m>, <m>\overline{A}=[0,2]\cup[3,4]\cup\{5\}</m>, and <m>\overline{A^o}=[0,2]</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                Consider <m>X=[0,1]\cup\{2\}</m> as a metric space with the metric <m>d(x,y)=|x-y|</m>. Let <m>S_2(0)=\{x\in X:d(x,0)=2\}</m> (sphere in <m>X</m>) and let <m>B_2(0)=\{x\in X:d(x,0)&lt;2\}</m> (ball in <m>X</m>). Then <m>S_2(0)\cap \overline{B_2(0)}\neq\emptyset</m>.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Here <m>B_2(0)=[0,1]</m> and <m>\overline{B_2(0)}=[0,1]</m>, while <m>S_2(0)=\{2\}</m>.
+            </p>
+        </feedback>
+    </exercise>
+</exercisegroup>
+</exercises>
