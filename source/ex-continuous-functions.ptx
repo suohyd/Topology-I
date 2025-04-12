@@ -1,4 +1,4 @@
-<exercises xml:id="ex-open-closed-interior" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="ex-continuous-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises related to continuous functions</title>
 <p>
     We list a large number of small exercises for practice. Some of the exercises are taken from <sq>Elementary topology problem textbook</sq> by Viro et.al.
@@ -16,5 +16,59 @@
                 If <m>f\colon A\to B</m> is a function then, <m>f^{-1}(X\cup Y)=f^{-1}(X)\cup f^{-1}(Y)</m> for any subsets <m>X,Y</m> of <m>B</m>.
             </p>
         </statement>
+        <feedback>
+            <p>
+                Suppose that <m>a\in f^{-1}(X\cup Y)</m>, i.e., <m>f(a)\in X\cup Y</m>, i.e., <m>a\in f^{-1}(X)\cup f^{-1}(Y)</m>. Conversely, if <m>a\in f^{-1}(Y)</m> then, <m>f(a)\in Y</m> and hence, <m>f(a)\in X\cup Y</m>, i.e., <m>a\in f^{-1}(X\cup Y)</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                There does not exist a non-constant continuous function <m>f\colon\R_\ell\to\R</m>. 
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Take the identity function and use the fact that the lower limit topology is finer than the usual topology.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                Let <m>f\colon\Z_{\geq 0}\to\R</m> be given by <m>f(n)=1/n</m> for <m>n\neq 0</m> and <m>f(0)=0</m>. Then, <m>f</m> is continuous when <m>\Z_{\geq 0}</m> is given the subspace topology.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                The induced topology on <m>\Z_{\geq 0}</m> is discrete and hence <em>any</em> map from <m>\Z_{\geq 0}</m> is continuous.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                Let <m>\mathbb{L}=\{0\}\cup\{1/n:n\in\N\}</m>. If <m>\mathbb{L}</m> and <m>\Z_{\geq 0}</m> are given the subspace topology induced from <m>\R</m> then, the function <m>f\colon\mathbb{L}\to\Z_{\geq 0}</m> given by <m>f(0)=0</m> and <m>f(1/n)=n</m> whenever <m>n\neq 0</m> is continuous.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                In the subspace topology <m>\Z_{\geq 0}</m> is a discrete topological space, in particular, <m>\{0\}</m> is an open subset. The preimage of <m>\{0\}</m>, <m>f^{-1}(0)=\{0\}</m> which is not open in <m>\mathbb{L}</m>.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                The map <m>T\colon\R^2\to\R^2</m> defined by <m>T(x,y)=(-y,x)</m> is continuous. 
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Note that the given linear map is anticlockwise rotation by <m>90^0</m>. In particular, it preserve distances. 
+            </p>
+        </feedback>
     </exercise>
 </exercisegroup>
+</exercises>
