@@ -631,6 +631,60 @@ var ptx_lunr_docs = [
   "body": " Let be a metric space. Suppose that be open balls of radii , respectively. If then, .   Let . Thus, . We thus have the following inequalities.   "
 },
 {
+  "id": "ex-continuous-functions",
+  "level": "1",
+  "url": "ex-continuous-functions.html",
+  "type": "Exercises",
+  "number": "4",
+  "title": "Exercises related to continuous functions",
+  "body": " Exercises related to continuous functions  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    If is a function then, for any subsets of .   Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .    There does not exist a non-constant continuous function .   Take the identity function and use the fact that the lower limit topology is finer than the usual topology.    Let be given by for and . Then, is continuous when is given the subspace topology.   The induced topology on is discrete and hence any map from is continuous.    Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.   In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .    The map defined by is continuous.   Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.    "
+},
+{
+  "id": "ex-continuous-functions-3-2",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-2",
+  "type": "Exercise",
+  "number": "4.1",
+  "title": "",
+  "body": " If is a function then, for any subsets of .   Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .  "
+},
+{
+  "id": "ex-continuous-functions-3-3",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-3",
+  "type": "Exercise",
+  "number": "4.2",
+  "title": "",
+  "body": " There does not exist a non-constant continuous function .   Take the identity function and use the fact that the lower limit topology is finer than the usual topology.  "
+},
+{
+  "id": "ex-continuous-functions-3-4",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-4",
+  "type": "Exercise",
+  "number": "4.3",
+  "title": "",
+  "body": " Let be given by for and . Then, is continuous when is given the subspace topology.   The induced topology on is discrete and hence any map from is continuous.  "
+},
+{
+  "id": "ex-continuous-functions-3-5",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-5",
+  "type": "Exercise",
+  "number": "4.4",
+  "title": "",
+  "body": " Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.   In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .  "
+},
+{
+  "id": "ex-continuous-functions-3-6",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-6",
+  "type": "Exercise",
+  "number": "4.5",
+  "title": "",
+  "body": " The map defined by is continuous.   Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
