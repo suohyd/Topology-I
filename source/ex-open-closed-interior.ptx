@@ -37,7 +37,7 @@
         </feedback>
     </exercise>
     <exercise>
-        <statement correct="correct">
+        <statement correct="yes">
             <p>
                 If the interval <m>[0,2]</m> is given the subspace topology from <m>\R</m> then, <m>[0,1)</m> is an open subset of <m>[0,2]</m>.
             </p>
