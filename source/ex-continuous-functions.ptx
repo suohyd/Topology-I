@@ -1,5 +1,5 @@
 <exercises xml:id="ex-continuous-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exercises related to continuous functions</title>
+    <title>Exercises related to continuous functions and homeomorphisms</title>
 <p>
     We list a large number of small exercises for practice. Some of the exercises are taken from <sq>Elementary topology problem textbook</sq> by Viro et.al.
 </p>
@@ -69,6 +69,64 @@
                 Note that the given linear map is anticlockwise rotation by <m>90^0</m>. In particular, it preserve distances. 
             </p>
         </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                Let <m>a,b,c,d\in\R</m>. If <m>f\colon [a,b]\to[c,d]</m> is a strictly monotone continuous surjective function then, <m>f</m> is a homeomorphism.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                Following two figures are homeomorphic.
+            </p>
+            <figure xml:id="circle-with-spike">
+                <caption>Circle with spike and circle</caption>
+                <image width="50%">
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp4789073543962954] 
+\draw   (222,151) .. controls (222,137.19) and (233.19,126) .. (247,126) .. controls (260.81,126) and (272,137.19) .. (272,151) .. controls (272,164.81) and (260.81,176) .. (247,176) .. controls (233.19,176) and (222,164.81) .. (222,151) -- cycle ;
+%Shape: Circle [id:dp6978811644782112] 
+\draw   (100,152) .. controls (100,138.19) and (111.19,127) .. (125,127) .. controls (138.81,127) and (150,138.19) .. (150,152) .. controls (150,165.81) and (138.81,177) .. (125,177) .. controls (111.19,177) and (100,165.81) .. (100,152) -- cycle ;
+%Straight Lines [id:da13801441628430933] 
+\draw    (272,151) -- (311,151) ;
+
+
+
+
+\end{tikzpicture}
+
+                    </latex-image>
+                </image>
+            </figure>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                An open disk in <m>\R^2</m> is homeomorphic to <m>\R^2</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                The spaces <m>\Z</m> and <m>\Q</m> are homeomorphic when considered as subspaces of <m>\R</m> with the usual topology.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                The spaces <m>\R</m> and <m>\mathbb{S}^1</m> are not homeomorphic.
+            </p>
+        </statement>
     </exercise>
 </exercisegroup>
 </exercises>

@@ -230,7 +230,7 @@
         </statement>
         <feedback>
             <p>
-                Let <m>X</m> be the real numbers with cofinite topology. Suppose that <m>A=[0,1]</m>. For any <m>x\in\R</m> and an open subset <m>U_x</m> containing <m>x</m>. As <m>\R\setminus U_x</m> is finite, <m>U_x\cap [0,1]\neq\emptyset</m>. Hence, <m>\overline{A}=X</m>. Similar reasoning show that there are no nonempty open subsets in <m>A</m>, i.e., <m>A^o=\emptyset</m>. Therefore, the boundary of <m>A=\overline{A}\setminus A^o=X</m>, while the boundary of <m>\overline{A}=X=\emptyset</m>.
+                Let <m>X</m> be the real numbers with cofinite topology. Suppose that <m>A=[0,1]</m>. For any <m>x\in\R</m> and an open subset <m>U_x</m> containing <m>x</m>. As <m>\R\setminus U_x</m> is finite, <m>U_x\cap [0,1]\neq\emptyset</m>. Hence, <m>\overline{A}=X</m>. Similar reasoning show that there are no nonempty open subsets in <m>A</m>, i.e., <m>A^o=\emptyset</m>. Therefore, the boundary of <m>A=\overline{A}\setminus A^o=X</m>, while the boundary of <m>\overline{A}</m> is <m>\emptyset</m>.
             </p>
             <p>
                 We remark that the above statement is <em>true</em> if <m>X</m> is assumed to be a Hausdorff space.
