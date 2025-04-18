@@ -637,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4",
   "title": "Exercises related to continuous functions and homeomorphisms",
-  "body": " Exercises related to continuous functions and homeomorphisms  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    If is a function then, for any subsets of .   Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .    There does not exist a non-constant continuous function .   Take the identity function and use the fact that the lower limit topology is finer than the usual topology.    Let be given by for and . Then, is continuous when is given the subspace topology.   The induced topology on is discrete and hence any map from is continuous.    Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.   In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .    The map defined by is continuous.   Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.    Let . If is a strictly monotone continuous surjective function then, is a homeomorphism.    Following two figures are homeomorphic.   Circle with spike and circle         An open disk in is homeomorphic to .    The spaces and are homeomorphic when considered as subspaces of with the usual topology.    The spaces and are not homeomorphic.    "
+  "body": " Exercises related to continuous functions and homeomorphisms  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    If is a function then, for any subsets of .   Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .    There does not exist a non-constant continuous function .   Take the identity function and use the fact that the lower limit topology is finer than the usual topology.    Let be given by for and . Then, is continuous when is given the subspace topology.   The induced topology on is discrete and hence any map from is continuous.    Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.   In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .    The map defined by is continuous.   Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.    Let . If is a strictly monotone continuous surjective function then, is a homeomorphism.    Following two figures are homeomorphic.   Circle with spike and circle         An open disk in is homeomorphic to .   One may consider an open unit disc and then the following mapping.     The spaces and are homeomorphic when considered as subspaces of with the usual topology.   One is a discrete space and other is not.    The spaces and are not homeomorphic.   Note that is compact but is not a compact space. Alternatively, removing one point from one gets a disconnected space but removing one point from the circle one gets a connected space.    "
 },
 {
   "id": "ex-continuous-functions-3-2",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.8",
   "title": "",
-  "body": " An open disk in is homeomorphic to .  "
+  "body": " An open disk in is homeomorphic to .   One may consider an open unit disc and then the following mapping.   "
 },
 {
   "id": "ex-continuous-functions-3-10",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.9",
   "title": "",
-  "body": " The spaces and are homeomorphic when considered as subspaces of with the usual topology.  "
+  "body": " The spaces and are homeomorphic when considered as subspaces of with the usual topology.   One is a discrete space and other is not.  "
 },
 {
   "id": "ex-continuous-functions-3-11",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.10",
   "title": "",
-  "body": " The spaces and are not homeomorphic.  "
+  "body": " The spaces and are not homeomorphic.   Note that is compact but is not a compact space. Alternatively, removing one point from one gets a disconnected space but removing one point from the circle one gets a connected space.  "
 },
 {
   "id": "backmatter-2",
