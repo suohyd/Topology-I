@@ -78,6 +78,59 @@
         </statement>
     </exercise>
     <exercise>
+        <statement correct="yes">
+            <p>
+                The function <m>f\colon\R\to (0,1)</m> given by <m>x\mapsto\frac{e^x}{1+e^x}</m> is a homeomorphism
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                If every real-valued function defined on <m>X</m> is continuous then, <m>X</m> has a discrete topology.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                By the hypothesis, for each <m>x\in X</m>, the function <m>\delta_x(y)=0</m> if <m>y\neq x</m> and <m>\delta_x(x)=1</m> must be continuous. Thus, <m>\{x\}</m> is both open (it is the complement of a closed set <m>\delta_x^{-1}\{0\}</m>) and closed (it is the preimage of a closed set <m>\{1\}</m>).
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                The folding map <m>\R^2\to\R^2</m> given by <m>(x,y)\mapsto(x,|y|)</m> is open.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Consider the image of the unit square centered around the origin. 
+            </p>
+            <!--<p>
+                The folding map is a closed map. Indeed, let <m>A</m> be a closed set and let <m>(a,b)</m> be a limit point of <m>f(A)</m>. Then, there is a sequence <m>(x_n,y_n)\in A</m> such that <m>(x_n,|y_n|)\to (a,b)</m>.
+            </p>-->
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="no">
+            <p>
+                The map <m>z\mapsto z^3</m> of the plane to itself is not closed.
+            </p>
+        </statement>
+        <feedback>
+            <p>
+                Use sequences with the fact that every bounded sequence in the plane has a convergent subsequence.
+            </p>
+        </feedback>
+    </exercise>
+    <exercise>
+        <statement correct="yes">
+            <p>
+                The inverse map <m>\mathbb{S}^1\to\mathbb{S}^1</m> given by <m>e^{i\theta}\to e^{-i\theta}</m> is continuous.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
         <statement correct="no">
             <p>
                 Following two figures are homeomorphic.
