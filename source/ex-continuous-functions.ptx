@@ -113,6 +113,15 @@
                 An open disk in <m>\R^2</m> is homeomorphic to <m>\R^2</m>.
             </p>
         </statement>
+        <feedback>
+            <p>
+                One may consider an open unit disc and then the following mapping.
+                <me>
+                    (x,y)\mapsto \frac{1}{\lVert(x,y)\rVert+1}\cdot (x,y)
+                </me>
+                
+            </p>
+        </feedback>
     </exercise>
     <exercise>
         <statement correct="no">
@@ -120,6 +129,11 @@
                 The spaces <m>\Z</m> and <m>\Q</m> are homeomorphic when considered as subspaces of <m>\R</m> with the usual topology.
             </p>
         </statement>
+        <feedback>
+            <p>
+                One is a discrete space and other is not.
+            </p>
+        </feedback>
     </exercise>
     <exercise>
         <statement correct="yes">
@@ -127,6 +141,11 @@
                 The spaces <m>\R</m> and <m>\mathbb{S}^1</m> are not homeomorphic.
             </p>
         </statement>
+        <feedback>
+            <p>
+                Note that <m>\mathbb{S}^1</m> is compact but <m>\R</m> is not a compact space. Alternatively, removing one point from <m>\R</m> one gets a disconnected space but removing one point from the circle one gets a connected space. 
+            </p>
+        </feedback>
     </exercise>
 </exercisegroup>
 </exercises>
