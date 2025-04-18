@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Product and coproduct of sets",
-  "body": " Product and coproduct of sets  We begin with the definition of product of sets.  (Product of sets)   Let be a nonempty set and consider sets for every . A product of is a set denoted by and it is `characterized' by the following properties.    For each , there is a map     If is any set together with maps for each , then there is a unique map satisfying .    These conditions can be summarize in the following `diagram'.     The universal property of product of sets       (Existence of a product of sets)   A product of sets is the Cartesian product of sets, i.e.,      We let . We consider, for each , the projection onto -th component of , i.e., by .  Let be a set with maps for each . A map satisfying must map an element to . Hence, we get the result.   Find a product of and . Also find a product of and .  (Uniqueness of product of sets)   A product of sets is unique up to a canonical bijection of sets.     Proof is left as an exercise.      makes precise the meaning of the word characterized in .    We now define a coproduct of sets.  (Coproduct\/disjoint union of sets)   Let be a nonempty indexing set, and let be sets for each . A coproduct or a disjoint union of 's is the set with the following properties.   For each , there is a map .    If is any set together with maps for each , then there exists a unique map such that for each , see the following diagram.      The universal property of coproduct        (Existence and uniquness of a coproduct of sets)  Arguing similar to and show that a coproduct of sets exists and it is unique up to bijection.   Find a coproduct of and . Also find a coproduct of and . Compare it with .   (Product and coproduct of finite number of sets)   If the indexing set is finite, say then, .    "
+  "body": " Product and coproduct of sets  We begin with the definition of product of sets.  (Product of sets)   Let be a nonempty set and consider sets for every . A product of is a set denoted by and it is `characterized' by the following properties.    For each , there is a map     If is any set together with maps for each , then there is a unique map satisfying .    These conditions can be summarize in the following `diagram'.     The universal property of product of sets       (Existence of a product of sets)   A product of sets is the Cartesian product of sets, i.e.,      We let . We consider, for each , the projection onto -th component of , i.e., by .  Let be a set with maps for each . A map satisfying must map an element to . Hence, we get the result.    Find a product of and . Also find a product of and .   (Uniqueness of product of sets)   A product of sets is unique up to a canonical bijection of sets.     Proof is left as an exercise.      makes precise the meaning of the word characterized in .    We now define a coproduct of sets.  (Coproduct\/disjoint union of sets)   Let be a nonempty indexing set, and let be sets for each . A coproduct or a disjoint union of 's is the set with the following properties.   For each , there is a map .    If is any set together with maps for each , then there exists a unique map such that for each , see the following diagram.      The universal property of coproduct         (Existence and uniquness of a coproduct of sets)   Arguing similar to and show that a coproduct of sets exists and it is unique up to bijection.     Find a coproduct of and . Also find a coproduct of and . Compare it with .    (Product and coproduct of finite number of sets)   If the indexing set is finite, say then, .    "
 },
 {
   "id": "def-product-of-sets",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.4",
   "title": "",
-  "body": "Find a product of and . Also find a product of and . "
+  "body": " Find a product of and . Also find a product of and .  "
 },
 {
   "id": "lem-uniqueness-of-product-of-sets",
@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.9",
   "title": "(Existence and uniquness of a coproduct of sets).",
-  "body": "(Existence and uniquness of a coproduct of sets)  Arguing similar to and show that a coproduct of sets exists and it is unique up to bijection.  "
+  "body": " (Existence and uniquness of a coproduct of sets)   Arguing similar to and show that a coproduct of sets exists and it is unique up to bijection.   "
 },
 {
   "id": "sec-product-coproduct-sets-14",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.10",
   "title": "",
-  "body": "Find a coproduct of and . Also find a coproduct of and . Compare it with . "
+  "body": " Find a coproduct of and . Also find a coproduct of and . Compare it with .  "
 },
 {
   "id": "finite-prod-coprod-are-same",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Product and coproduct topology",
-  "body": " Product and coproduct topology  In this section we define product and coproduct of topological spaces. We begin with the following proposition.    Let be a nonempty indexing set, and be topological spaces for each . We consider a product of sets, as in . Following topologies on are all equivalent.    The topology on generated by the following basis.     The coarsest topology on that make all projection maps continuous.    (Universal property for a product topology). Let denote the topology on having the following universal property.  For every topological space and every map , is continuous if and only if for each , is continuous; see the following diagram.   Universal property of a product            . Suppose that is an open set. Then, is a product of sets whose -th component is when and the -th component is . Therefore, any topology on which makes continuous, we must have open in that topology, in particular, . Furthermore, given a basis element with for any , we can write it as . Hence, and are equivalent.   . Suppose that has topology . Consider the identity map with the topology on both the domain and the codomain. Then, given an open subset , is open in because is continuous. Hence, .  Conversely, consider the identity map. We have the following diagram for each .     By the definining property of , for each , the map is continuous. Therefore, by the defining property of , the identity map is also continuous, i.e., an open subset of with respect to is open with respect to as well. In particular, .    (Product of topological spaces)   A product of topological spaces is set with the topology given by any one of the topologies in .      Let be topological spaces. The projection maps and are open maps. Furthermore, for any , maps and are homeomorphisms.  The basic ingredient to see the above statement is the following observation.  For open and open     We now consider the coproduct topology . We begin with the following proposition, which is analogues to . We leave the proof of the proposition as an exercise.    Let be a nonempty set, and let be a topological space for each . The following topologies on (see ) are equivalent.    The topology such that is open if and only if for some open.    The topology such that it is the finest topology on such that inclusion maps are continuous.    (Universal property of a coproduct topology). The topology satisfying the following universal property.  For every topological space and every function , is continuous if and only if for each , is continuous, where is natural inclusion.   The universal property of a coproduct          (Coproduct of topological spaces)   A coproduct of topological spaces is set with the topology given by any one of the topologies in .     (Product and coproduct of finitely many topological spaces)   By , we may assume that . The product topology on and the coproduct topology are the same.     We denote by the transpose of . Show that the following map is continuous. Find the preimage of the point .   "
+  "body": " Product and coproduct topology  In this section we define product and coproduct of topological spaces. We begin with the following proposition.    Let be a nonempty indexing set, and be topological spaces for each . We consider a product of sets, as in . Following topologies on are all equivalent.    The topology on generated by the following basis.     The coarsest topology on that make all projection maps continuous.    (Universal property for a product topology). Let denote the topology on having the following universal property.  For every topological space and every map , is continuous if and only if for each , is continuous; see the following diagram.   Universal property of a product            . Suppose that is an open set. Then, is a product of sets whose -th component is when and the -th component is . Therefore, any topology on which makes continuous, we must have open in that topology, in particular, . Furthermore, given a basis element with for any , we can write it as . Hence, and are equivalent.   . Suppose that has topology . Consider the identity map with the topology on both the domain and the codomain. Then, given an open subset , is open in because is continuous. Hence, .  Conversely, consider the identity map. We have the following diagram for each .     By the definining property of , for each , the map is continuous. Therefore, by the defining property of , the identity map is also continuous, i.e., an open subset of with respect to is open with respect to as well. In particular, .    (Product of topological spaces)   A product of topological spaces is set with the topology given by any one of the topologies in .      Let be topological spaces. The projection maps and are open maps. Furthermore, for any , maps and are homeomorphisms.  The basic ingredient to see the above statement is the following observation.  For open and open     We now consider the coproduct topology . We begin with the following proposition, which is analogues to . We leave the proof of the proposition as an exercise.    Let be a nonempty set, and let be a topological space for each . The following topologies on (see ) are equivalent.    The topology such that is open if and only if for some open.    The topology such that it is the finest topology on such that inclusion maps are continuous.    (Universal property of a coproduct topology). The topology satisfying the following universal property.  For every topological space and every function , is continuous if and only if for each , is continuous, where is natural inclusion.   The universal property of a coproduct          (Coproduct of topological spaces)   A coproduct of topological spaces is set with the topology given by any one of the topologies in .     (Product and coproduct of finitely many topological spaces)   By , we may assume that . The product topology on and the coproduct topology are the same.      We denote by the transpose of . Show that the following map is continuous. Find the preimage of the point .    "
 },
 {
   "id": "prop-product-of-top-spaces",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.1.10",
   "title": "",
-  "body": " We denote by the transpose of . Show that the following map is continuous. Find the preimage of the point .  "
+  "body": "  We denote by the transpose of . Show that the following map is continuous. Find the preimage of the point .   "
 },
 {
   "id": "sec-subspace-top",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Subspace topology",
-  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .    Suppose that and that each is given the subspace topology. We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?  We denote by the product topology on and by the subspace topology on . For any , the projection map is continuous. Indeed, for an open subset , is an open subset with respect to . Thus, by the universal property of product topology is continuous, i.e.,             (Euclidean and product topology on )   We consider with the usual topology. We show that the product topology on is same as the Euclidean topology on . Note that the projection maps are continuous. Therefore, using the universal property of the product topology we get that an open subset in the product topology is open in the Euclidean topology.         A direct way to see this is following. Suppose that . Consider an open subset in the product topology. Note that . This shows that a basic open subset in the product topology is an union of open balls in the euclidean topology.    "
+  "body": " Subspace topology We begin with the following proposition.   Let a topological space and let be a subset of . Following topologies defined on are all equivalent.    The topology .    The coarsest topology on for which the canonical inclusion is continuous.    (Universal property of subspace topology). The topology on satisfying the following property.  For every topological space and any function , is continuous if and only if is continuous. See the following diagram.   The universal property of the subspace topology           The equivalence of topologies and is left as an exercise.  We show that . Consider the following diagram, where is the identity map.      Note that , and with the topology the inclusion is continuous. By the universal property of , the identity is also continuous. Hence, .  We now consider the following.      As is continuous, using the universal property of , we get that is also continuous. Since the is the coarsest topology that makes inclusion continuous, we have that .     Let be a topological space, and let be a subset of . The subspace topology on is any of the topologies defined by .     Suppose that and that each is given the subspace topology. We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?   We denote by the product topology on and by the subspace topology on . For any , the projection map is continuous. Indeed, for an open subset , is an open subset with respect to . Thus, by the universal property of product topology is continuous, i.e.,              (Euclidean and product topology on )   We consider with the usual topology. We show that the product topology on is same as the Euclidean topology on . Note that the projection maps are continuous. Therefore, using the universal property of the product topology we get that an open subset in the product topology is open in the Euclidean topology.         A direct way to see this is following. Suppose that . Consider an open subset in the product topology. Note that . This shows that a basic open subset in the product topology is an union of open balls in the euclidean topology.    "
 },
 {
   "id": "prop-subspace-top",
@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.2.6",
   "title": "",
-  "body": "Suppose that and that each is given the subspace topology. We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?  We denote by the product topology on and by the subspace topology on . For any , the projection map is continuous. Indeed, for an open subset , is an open subset with respect to . Thus, by the universal property of product topology is continuous, i.e.,           "
+  "body": " Suppose that and that each is given the subspace topology. We can consider a product topology on as well as subspace topology induced by a product topology on . Are these topologies same on ?   We denote by the product topology on and by the subspace topology on . For any , the projection map is continuous. Indeed, for an open subset , is an open subset with respect to . Thus, by the universal property of product topology is continuous, i.e.,            "
 },
 {
   "id": "sec-subspace-top-6",
@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Topological groups",
-  "body": " Topological groups  In this section we define and give some examples of topological groups.    Let be a group and a topological space. We say that is a topological group if the group operation , given by and the inverse map given by are continous.    (Group of invertible matrices as a topological space)   We consider as a subset of , and we give subspace topology on . As the entries of product of matrices depend continuously on entries of and , the matrix multiplication map is continuous. Furthermore, the entries of the inverse of depends continuously on the entries of . Hence, the inverse map given by is continuous.     (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.     (Equivalent condition)  Show that the two conditions in is equivalent to the following.    (Translations)  Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.   (Additive group of the Euclidean space)  Show that given by is continuous.   "
+  "body": " Topological groups  In this section we define and give some examples of topological groups.    Let be a group and a topological space. We say that is a topological group if the group operation , given by and the inverse map given by are continous.    (Group of invertible matrices as a topological space)   We consider as a subset of , and we give subspace topology on . As the entries of product of matrices depend continuously on entries of and , the matrix multiplication map is continuous. Furthermore, the entries of the inverse of depends continuously on the entries of . Hence, the inverse map given by is continuous.     (Special linear and special orthogonal groups)   Similar to , we get that the following subgroups of are topological groups.      (Equivalent condition)   Show that the two conditions in is equivalent to the following.      (Translations)   Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.     (Additive group of the Euclidean space)   Show that given by is continuous.    "
 },
 {
   "id": "def-topological-group",
@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.3.4",
   "title": "(Equivalent condition).",
-  "body": "(Equivalent condition)  Show that the two conditions in is equivalent to the following.   "
+  "body": " (Equivalent condition)   Show that the two conditions in is equivalent to the following.    "
 },
 {
   "id": "sec-topological-groups-7",
@@ -313,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.3.5",
   "title": "(Translations).",
-  "body": "(Translations)  Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.  "
+  "body": " (Translations)   Let be a topological group. Fix . Show that mapping given by and given by are homeomorphisms.   "
 },
 {
   "id": "addtive-group-euclidean-space",
@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.3.6",
   "title": "(Additive group of the Euclidean space).",
-  "body": "(Additive group of the Euclidean space)  Show that given by is continuous.  "
+  "body": " (Additive group of the Euclidean space)   Show that given by is continuous.   "
 },
 {
   "id": "sec-fiber-product",
@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "3",
   "title": "Exercises related to open, closed sets, interior and closure of sets",
-  "body": " Exercises related to open, closed sets, interior and closure of sets  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    Let . The interval is an open subset in .   One may approximate from the right, for instance, by considering .    Let . The interval is a closed subset of in the usual topology.   If were closed then, its complement will be open. However, any open interval of containing will contain points other than .    If the interval is given the subspace topology from then, is an open subset of .   We have .    If is a closed subset of then, is a closed subset of for every .   Let be a limit point of . Thus, there exists a sequence , i.e., , i.e., is a limit point of . As is closed, . Hence, there exists such that , i.e., .    Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Consider with the subspace topology induced from . Then, is not an open subset of .    Let be a nonempty topological space with the indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .    The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.    If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .    The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .    There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .    Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .    Let be given the subspace topology. If is a discrete subspace then, is countable.   For any there exists an open interval such that as the induced topology on is discrete. For we can choose smaller intervals, say and such that , , and . For each pick . Then, the map given by is injective.    Let be a topological space. For any subset of , the boundary of and the boundary of are the same.   Let be the real numbers with cofinite topology. Suppose that . For any and an open subset containing . As is finite, . Hence, . Similar reasoning show that there are no nonempty open subsets in , i.e., . Therefore, the boundary of , while the boundary of is .  We remark that the above statement is true if is assumed to be a Hausdorff space.    Let be a metric space. Suppose that be open balls of radii , respectively. If then, .   Let . Thus, . We thus have the following inequalities.     "
+  "body": " Exercises related to open, closed sets, interior and closure of sets  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.     Let . The interval is an open subset in .    One may approximate from the right, for instance, by considering .      Let . The interval is a closed subset of in the usual topology.    If were closed then, its complement will be open. However, any open interval of containing will contain points other than .      If the interval is given the subspace topology from then, is an open subset of .    We have .      If is a closed subset of then, is a closed subset of for every .    Let be a limit point of . Thus, there exists a sequence , i.e., , i.e., is a limit point of . As is closed, . Hence, there exists such that , i.e., .      Let be given the subspace topology from . Consider the following subsets of .       Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)        Consider with the subspace topology induced from . Then, is not an open subset of .      Let be a nonempty topological space with the indiscrete topology, i.e., . For , the closure of is .    If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .      The interior of rational (resp., irrational) numbers is nonempty.    One may use density of rational numbers to conclude that the interior of is empty.      If are subsets of then,     Consider sets . As are open, and hence, which is a closed set. However, .      The interior of is empty and its closure is when is given the cofinite topology.    The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .      There exists a set such that are all pairwise distinct.    Consider as a subset of with the usual topology. Here, , , and .      Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .    Here and , while .      Let be given the subspace topology. If is a discrete subspace then, is countable.    For any there exists an open interval such that as the induced topology on is discrete. For we can choose smaller intervals, say and such that , , and . For each pick . Then, the map given by is injective.      Let be a topological space. For any subset of , the boundary of and the boundary of are the same.    Let be the real numbers with cofinite topology. Suppose that . For any and an open subset containing . As is finite, . Hence, . Similar reasoning show that there are no nonempty open subsets in , i.e., . Therefore, the boundary of , while the boundary of is .  We remark that the above statement is true if is assumed to be a Hausdorff space.      Let be a metric space. Suppose that be open balls of radii , respectively. If then, .    Let . Thus, . We thus have the following inequalities.      "
 },
 {
   "id": "ex-open-closed-interior-3-2",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1",
   "title": "",
-  "body": " Let . The interval is an open subset in .   One may approximate from the right, for instance, by considering .  "
+  "body": "  Let . The interval is an open subset in .    One may approximate from the right, for instance, by considering .   "
 },
 {
   "id": "ex-open-closed-interior-3-3",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2",
   "title": "",
-  "body": " Let . The interval is a closed subset of in the usual topology.   If were closed then, its complement will be open. However, any open interval of containing will contain points other than .  "
+  "body": "  Let . The interval is a closed subset of in the usual topology.    If were closed then, its complement will be open. However, any open interval of containing will contain points other than .   "
 },
 {
   "id": "ex-open-closed-interior-3-4",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3",
   "title": "",
-  "body": " If the interval is given the subspace topology from then, is an open subset of .   We have .  "
+  "body": "  If the interval is given the subspace topology from then, is an open subset of .    We have .   "
 },
 {
   "id": "ex-open-closed-interior-3-5",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4",
   "title": "",
-  "body": " If is a closed subset of then, is a closed subset of for every .   Let be a limit point of . Thus, there exists a sequence , i.e., , i.e., is a limit point of . As is closed, . Hence, there exists such that , i.e., .  "
+  "body": "  If is a closed subset of then, is a closed subset of for every .    Let be a limit point of . Thus, there exists a sequence , i.e., , i.e., is a limit point of . As is closed, . Hence, there exists such that , i.e., .   "
 },
 {
   "id": "ex-open-closed-interior-3-6",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5",
   "title": "",
-  "body": " Let be given the subspace topology from . Consider the following subsets of .      Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)    "
+  "body": "  Let be given the subspace topology from . Consider the following subsets of .       Both are closed but not open.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      Both are open as well as closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)      The is closed but not open, and is open but not closed.    The complement of (resp., ) is open (resp., closed). Therefore, is closed (resp., open). Furthermore, as (resp., ), is open (resp., is closed.)     "
 },
 {
   "id": "ex-open-closed-interior-3-7",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6",
   "title": "",
-  "body": " Consider with the subspace topology induced from . Then, is not an open subset of .  "
+  "body": "  Consider with the subspace topology induced from . Then, is not an open subset of .   "
 },
 {
   "id": "ex-open-closed-interior-3-8",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.7",
   "title": "",
-  "body": " Let be a nonempty topological space with the indiscrete topology, i.e., . For , the closure of is .   If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .  "
+  "body": "  Let be a nonempty topological space with the indiscrete topology, i.e., . For , the closure of is .    If then, we are done. So assume that there exists distinct from . The only open set containing is , and thus, .   "
 },
 {
   "id": "ex-open-closed-interior-3-9",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8",
   "title": "",
-  "body": " The interior of rational (resp., irrational) numbers is nonempty.   One may use density of rational numbers to conclude that the interior of is empty.  "
+  "body": "  The interior of rational (resp., irrational) numbers is nonempty.    One may use density of rational numbers to conclude that the interior of is empty.   "
 },
 {
   "id": "ex-open-closed-interior-3-10",
@@ -574,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.9",
   "title": "",
-  "body": " If are subsets of then,    Consider sets . As are open, and hence, which is a closed set. However, .  "
+  "body": "  If are subsets of then,     Consider sets . As are open, and hence, which is a closed set. However, .   "
 },
 {
   "id": "ex-open-closed-interior-3-11",
@@ -583,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.10",
   "title": "",
-  "body": " The interior of is empty and its closure is when is given the cofinite topology.   The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .  "
+  "body": "  The interior of is empty and its closure is when is given the cofinite topology.    The interior of a set is the largest open set contained in . In the cofinite topology, every nonempty open set has a finite complement. Therefore, if a nonempty set is an interior of then, is a finite set. However, as , and is infinite, we must have .  Given any and a nonempty open subset containing , because is a finite set. Therefore, .   "
 },
 {
   "id": "ex-open-closed-interior-3-12",
@@ -592,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.11",
   "title": "",
-  "body": " There exists a set such that are all pairwise distinct.   Consider as a subset of with the usual topology. Here, , , and .  "
+  "body": "  There exists a set such that are all pairwise distinct.    Consider as a subset of with the usual topology. Here, , , and .   "
 },
 {
   "id": "ex-open-closed-interior-3-13",
@@ -601,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.12",
   "title": "",
-  "body": " Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .   Here and , while .  "
+  "body": "  Consider as a metric space with the metric . Let (sphere in ) and let (ball in ). Then .    Here and , while .   "
 },
 {
   "id": "ex-open-closed-interior-3-14",
@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.13",
   "title": "",
-  "body": " Let be given the subspace topology. If is a discrete subspace then, is countable.   For any there exists an open interval such that as the induced topology on is discrete. For we can choose smaller intervals, say and such that , , and . For each pick . Then, the map given by is injective.  "
+  "body": "  Let be given the subspace topology. If is a discrete subspace then, is countable.    For any there exists an open interval such that as the induced topology on is discrete. For we can choose smaller intervals, say and such that , , and . For each pick . Then, the map given by is injective.   "
 },
 {
   "id": "ex-open-closed-interior-3-15",
@@ -619,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.14",
   "title": "",
-  "body": " Let be a topological space. For any subset of , the boundary of and the boundary of are the same.   Let be the real numbers with cofinite topology. Suppose that . For any and an open subset containing . As is finite, . Hence, . Similar reasoning show that there are no nonempty open subsets in , i.e., . Therefore, the boundary of , while the boundary of is .  We remark that the above statement is true if is assumed to be a Hausdorff space.  "
+  "body": "  Let be a topological space. For any subset of , the boundary of and the boundary of are the same.    Let be the real numbers with cofinite topology. Suppose that . For any and an open subset containing . As is finite, . Hence, . Similar reasoning show that there are no nonempty open subsets in , i.e., . Therefore, the boundary of , while the boundary of is .  We remark that the above statement is true if is assumed to be a Hausdorff space.   "
 },
 {
   "id": "ex-open-closed-interior-3-16",
@@ -628,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.15",
   "title": "",
-  "body": " Let be a metric space. Suppose that be open balls of radii , respectively. If then, .   Let . Thus, . We thus have the following inequalities.   "
+  "body": "  Let be a metric space. Suppose that be open balls of radii , respectively. If then, .    Let . Thus, . We thus have the following inequalities.    "
 },
 {
   "id": "ex-continuous-functions",
@@ -637,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4",
   "title": "Exercises related to continuous functions and homeomorphisms",
-  "body": " Exercises related to continuous functions and homeomorphisms  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.    If is a function then, for any subsets of .   Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .    There does not exist a non-constant continuous function .   Take the identity function and use the fact that the lower limit topology is finer than the usual topology.    Let be given by for and . Then, is continuous when is given the subspace topology.   The induced topology on is discrete and hence any map from is continuous.    Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.   In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .    The map defined by is continuous.   Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.    Let . If is a strictly monotone continuous surjective function then, is a homeomorphism.    Following two figures are homeomorphic.   Circle with spike and circle         An open disk in is homeomorphic to .   One may consider an open unit disc and then the following mapping.     The spaces and are homeomorphic when considered as subspaces of with the usual topology.   One is a discrete space and other is not.    The spaces and are not homeomorphic.   Note that is compact but is not a compact space. Alternatively, removing one point from one gets a disconnected space but removing one point from the circle one gets a connected space.    "
+  "body": " Exercises related to continuous functions and homeomorphisms  We list a large number of small exercises for practice. Some of the exercises are taken from Elementary topology problem textbook by Viro et.al.    State whether the following statements are true or false. Justify your answers.     If is a function then, for any subsets of .    Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .      There does not exist a non-constant continuous function .    Take the identity function and use the fact that the lower limit topology is finer than the usual topology.      Let be given by for and . Then, is continuous when is given the subspace topology.    The induced topology on is discrete and hence any map from is continuous.      Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.    In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .      The map defined by is continuous.    Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.      Let . If is a strictly monotone continuous surjective function then, is a homeomorphism.      The function given by is a homeomorphism      If every real-valued function defined on is continuous then, has a discrete topology.    By the hypothesis, for each , the function if and must be continuous. Thus, is both open (it is the complement of a closed set ) and closed (it is the preimage of a closed set ).      The folding map given by is open.    Consider the image of the unit square centered around the origin.       The map of the plane to itself is not closed.    Use sequences with the fact that every bounded sequence in the plane has a convergent subsequence.      The inverse map given by is continuous.      Following two figures are homeomorphic.   Circle with spike and circle           An open disk in is homeomorphic to .    One may consider an open unit disc and then the following mapping.       The spaces and are homeomorphic when considered as subspaces of with the usual topology.    One is a discrete space and other is not.      The spaces and are not homeomorphic.    Note that is compact but is not a compact space. Alternatively, removing one point from one gets a disconnected space but removing one point from the circle one gets a connected space.     "
 },
 {
   "id": "ex-continuous-functions-3-2",
@@ -646,7 +646,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1",
   "title": "",
-  "body": " If is a function then, for any subsets of .   Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .  "
+  "body": "  If is a function then, for any subsets of .    Suppose that , i.e., , i.e., . Conversely, if then, and hence, , i.e., .   "
 },
 {
   "id": "ex-continuous-functions-3-3",
@@ -655,7 +655,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2",
   "title": "",
-  "body": " There does not exist a non-constant continuous function .   Take the identity function and use the fact that the lower limit topology is finer than the usual topology.  "
+  "body": "  There does not exist a non-constant continuous function .    Take the identity function and use the fact that the lower limit topology is finer than the usual topology.   "
 },
 {
   "id": "ex-continuous-functions-3-4",
@@ -664,7 +664,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.3",
   "title": "",
-  "body": " Let be given by for and . Then, is continuous when is given the subspace topology.   The induced topology on is discrete and hence any map from is continuous.  "
+  "body": "  Let be given by for and . Then, is continuous when is given the subspace topology.    The induced topology on is discrete and hence any map from is continuous.   "
 },
 {
   "id": "ex-continuous-functions-3-5",
@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.4",
   "title": "",
-  "body": " Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.   In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .  "
+  "body": "  Let . If and are given the subspace topology induced from then, the function given by and whenever is continuous.    In the subspace topology is a discrete topological space, in particular, is an open subset. The preimage of , which is not open in .   "
 },
 {
   "id": "ex-continuous-functions-3-6",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.5",
   "title": "",
-  "body": " The map defined by is continuous.   Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.  "
+  "body": "  The map defined by is continuous.    Note that the given linear map is anticlockwise rotation by . In particular, it preserve distances.   "
 },
 {
   "id": "ex-continuous-functions-3-7",
@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.6",
   "title": "",
-  "body": " Let . If is a strictly monotone continuous surjective function then, is a homeomorphism.  "
+  "body": "  Let . If is a strictly monotone continuous surjective function then, is a homeomorphism.   "
 },
 {
   "id": "ex-continuous-functions-3-8",
@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.7",
   "title": "",
-  "body": " Following two figures are homeomorphic.   Circle with spike and circle       "
+  "body": "  The function given by is a homeomorphism   "
 },
 {
   "id": "ex-continuous-functions-3-9",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.8",
   "title": "",
-  "body": " An open disk in is homeomorphic to .   One may consider an open unit disc and then the following mapping.   "
+  "body": "  If every real-valued function defined on is continuous then, has a discrete topology.    By the hypothesis, for each , the function if and must be continuous. Thus, is both open (it is the complement of a closed set ) and closed (it is the preimage of a closed set ).   "
 },
 {
   "id": "ex-continuous-functions-3-10",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.9",
   "title": "",
-  "body": " The spaces and are homeomorphic when considered as subspaces of with the usual topology.   One is a discrete space and other is not.  "
+  "body": "  The folding map given by is open.    Consider the image of the unit square centered around the origin.    "
 },
 {
   "id": "ex-continuous-functions-3-11",
@@ -727,7 +727,52 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.10",
   "title": "",
-  "body": " The spaces and are not homeomorphic.   Note that is compact but is not a compact space. Alternatively, removing one point from one gets a disconnected space but removing one point from the circle one gets a connected space.  "
+  "body": "  The map of the plane to itself is not closed.    Use sequences with the fact that every bounded sequence in the plane has a convergent subsequence.   "
+},
+{
+  "id": "ex-continuous-functions-3-12",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-12",
+  "type": "Exercise",
+  "number": "4.11",
+  "title": "",
+  "body": "  The inverse map given by is continuous.   "
+},
+{
+  "id": "ex-continuous-functions-3-13",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-13",
+  "type": "Exercise",
+  "number": "4.12",
+  "title": "",
+  "body": "  Following two figures are homeomorphic.   Circle with spike and circle        "
+},
+{
+  "id": "ex-continuous-functions-3-14",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-14",
+  "type": "Exercise",
+  "number": "4.13",
+  "title": "",
+  "body": "  An open disk in is homeomorphic to .    One may consider an open unit disc and then the following mapping.    "
+},
+{
+  "id": "ex-continuous-functions-3-15",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-15",
+  "type": "Exercise",
+  "number": "4.14",
+  "title": "",
+  "body": "  The spaces and are homeomorphic when considered as subspaces of with the usual topology.    One is a discrete space and other is not.   "
+},
+{
+  "id": "ex-continuous-functions-3-16",
+  "level": "2",
+  "url": "ex-continuous-functions.html#ex-continuous-functions-3-16",
+  "type": "Exercise",
+  "number": "4.15",
+  "title": "",
+  "body": "  The spaces and are not homeomorphic.    Note that is compact but is not a compact space. Alternatively, removing one point from one gets a disconnected space but removing one point from the circle one gets a connected space.   "
 },
 {
   "id": "backmatter-2",
