@@ -131,5 +131,17 @@
                 </p>
             </feedback>
         </exercise>
+        <exercise xml:id="circle-not-homeomorphic-to-subset-of-reals">
+            <statement correct="no">
+                <p>
+                    The circle <m>\mathbb{S}^1</m> is homeomorphic to a subset of <m>\R</m>. 
+                </p>
+            </statement>
+            <feedback>
+                <p>
+                    If <m>f\colon\mathbb{S}^1\to X</m> is such a homeomorphism then, <m>X</m> is a compact, connected subspace of <m>\R</m>, i.e., <m>X</m> is a closed, bounded interval. If we remove two endpoints of <m>X</m> then, the new space is connected. However, removing two points from <m>\mathbb{S}^1</m> gives a disconnected space.
+                </p>
+            </feedback>
+        </exercise>
     </exercisegroup>
 </exercises>
