@@ -16,6 +16,7 @@
     <xi:include href="./ch-topological-spaces.ptx" />
     <xi:include href="./ex-open-closed-interior.ptx" />
     <xi:include href="./ex-continuous-functions.ptx" />
+    <xi:include href="./ex-connectedness-compactness.ptx" />
 
 
     <!-- Include backmatter -->
