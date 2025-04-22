@@ -57,21 +57,21 @@
         <exercise xml:id="orthogonal-group-is-compact">
             <statement correct="yes">
                 <p>
-                    The orthogonal group <m>\O(n,\R)</m> is compact.
+                    The orthogonal group <m>\Or(n,\R)</m> is compact.
                 </p>
             </statement>
             <feedback>
                 <p>
-                    A subset <m>K</m> of <m>\R^{n^2}</m> is compact if and only if <m>K</m> is closed and bounded. Therefore, it is enough to show that <m>\O(n,\R)</m> is closed and bounded. Let <m>A\in\O(n,\R)</m> and let <m>A^t</m> denote the transpose of the matrix <m>A</m>. We have <m>AA^t=I_n</m>, i.e., for <m>1\leq i,j\leq n</m> we have the following.
+                    A subset <m>K</m> of <m>\R^{n^2}</m> is compact if and only if <m>K</m> is closed and bounded. Therefore, it is enough to show that <m>\Or(n,\R)</m> is closed and bounded. Let <m>A\in\Or(n,\R)</m> and let <m>A^t</m> denote the transpose of the matrix <m>A</m>. We have <m>AA^t=I_n</m>, i.e., for <m>1\leq i,j\leq n</m> we have the following.
                     <me>
                         \sum_{k=1}^n a_{ik}a_{jk}=\delta_{ij}
                     </me>
-                    In particular, when <m>i=j</m>, we have <m>\sum_{k=1}^na_{ik}a_{ik}=1</m>. Hence, <m>\lvert a_{ik}\rvert\leq 1</m>, and thus, <m>\O(n,\R)</m> is bounded.
+                    In particular, when <m>i=j</m>, we have <m>\sum_{k=1}^na_{ik}a_{ik}=1</m>. Hence, <m>\lvert a_{ik}\rvert\leq 1</m>, and thus, <m>\Or(n,\R)</m> is bounded.
                     For each <m>1\leq i,j\leq n</m> we define <m>f_{ij}\colon M_n(\R)\to\R</m> given by <m>(a_{rs})\mapsto \sum_{k=1}^n a_{ik}a_{jk}=\delta_{ij}</m>. This is a continuous function. We also get that
                     <me>
-                        \O(n,\R)=\cap_{i\neq j}f^{-1}_{ij}\{0\}\bigcap \cap f^{-1}_{ii}\{1\}
+                        \Or(n,\R)=\cap_{i\neq j}f^{-1}_{ij}\{0\}\bigcap \cap f^{-1}_{ii}\{1\}
                     </me>
-                    Thus, <m>\O(n,\R)</m> is an intersection of closed subsets and hence <m>\O(n,\R)</m> is closed.
+                    Thus, <m>\Or(n,\R)</m> is an intersection of closed subsets and hence <m>\Or(n,\R)</m> is closed.
                 </p>
             </feedback>
         </exercise>
@@ -83,7 +83,7 @@
             </statement>
             <feedback>
                 <p>
-                    The special orthogonal group is a closed subset of a compact space, viz., <m>\SO(n,\R)=\det^{-1}\{1\}\subseteq\O(n,\R)</m>.
+                    The special orthogonal group is a closed subset of a compact space, viz., <m>\SO(n,\R)=\det^{-1}\{1\}\subseteq\Or(n,\R)</m>.
                 </p>
             </feedback>
         </exercise>
