@@ -163,17 +163,12 @@
                 <p>
                     Let <m>X=C[0,1]</m> with sup norm. The closed unit ball is compact in <m>X</m>.
                 </p>
+                
             </statement>
             <feedback>
                 Note that in the sup norm the convergence is uniform. So, one may consider <m>f_n=x^n</m>.
             </feedback>
         </exercise>
-        <!--<exercise>
-            <statement correct="no">
-                <p>
-                    Let <m>X</m> be a Hausdorff topological space and let <m>x,y\in X</m> be distinct points. Then, there exists nonempty disjoint open sets <m>U,V</m> containing <m>x,y</m>, respectively such that <m>\overline{U}\cap\overline{V}=\emptyset</m>.
-                </p>
-            </statement>
-        </exercise>-->
+        
     </exercisegroup>
 </exercises>
